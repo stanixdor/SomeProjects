@@ -1,0 +1,82 @@
+{
+	"ID" : 227318160,
+	"Mode" : 0,
+	"Name" : "CameraZoom",
+	"components" : 
+	[
+		{
+			"ID" : 228197360,
+			"Type" : "class Transform2D",
+			"data" : 
+			{
+				"mAngle" : 0,
+				"mIsChild" : false,
+				"mPosition" : [ -596.66455078125, -1374.29833984375, null, null ],
+				"mScale" : [ 50, 50, null, null ],
+				"mZorder" : 1,
+				"posX" : 0,
+				"posY" : 0
+			}
+		},
+		{
+			"ID" : 227326416,
+			"Type" : "class Graphics::Renderable",
+			"data" : 
+			{
+				"mIsVisible" : true,
+				"mLayer" : 2,
+				"mTextureName" : "Default.png",
+				"originalColor" : [ 1, 1, 1, 1 ]
+			}
+		},
+		{
+			"ID" : 76307056,
+			"Type" : "struct RigidBody",
+			"data" : 
+			{
+				"isBouncy" : false,
+				"isStatic" : true,
+				"mAcceleration" : [ 0, 0, null, null ],
+				"mAffectedByGravity" : true,
+				"mDrag" : 0.99000000953674316,
+				"mGravity" : [ 0, -500, null, null ],
+				"mInvMass" : 0,
+				"mPrevPosition" : [ 0, 0, null, null ],
+				"mRestitution" : 0,
+				"mVelocity" : [ 0, 0, null, null ]
+			}
+		},
+		{
+			"ID" : 227327504,
+			"Type" : "class Graphics::LineRenderer",
+			"data" : null
+		},
+		{
+			"ID" : 185340032,
+			"Type" : "class Collider",
+			"data" : 
+			{
+				"colliderTransform" : 
+				{
+					"mAngle" : 0,
+					"mIsChild" : false,
+					"mPosition" : [ 0, 0, null, null ],
+					"mScale" : [ 1, 1, null, null ],
+					"mZorder" : 1,
+					"posX" : 0,
+					"posY" : 0
+				},
+				"collisionGroupName" : "default",
+				"isGhost" : false
+			}
+		},
+		{
+			"ID" : 228199472,
+			"Type" : "class CamZoom",
+			"data" : 
+			{
+				"end_pos" : [ 1150, 550, null, null ]
+			}
+		}
+	]
+}

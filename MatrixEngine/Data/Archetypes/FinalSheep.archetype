@@ -1,0 +1,101 @@
+{
+	"ID" : 236270816,
+	"Mode" : 0,
+	"Name" : "FinalSheep",
+	"components" : 
+	[
+		{
+			"ID" : 236873272,
+			"Type" : "class Transform2D",
+			"data" : 
+			{
+				"mAngle" : 0,
+				"mIsChild" : false,
+				"mPosition" : [ 478.48291015625, -1324.01611328125, null, null ],
+				"mScale" : [ 200, 200, null, null ],
+				"mZorder" : 5,
+				"posX" : 0,
+				"posY" : 0
+			}
+		},
+		{
+			"ID" : 176355352,
+			"Type" : "class Graphics::AnimComp",
+			"data" : 
+			{
+				"CompColumns" : 5,
+				"CompDelays" : 
+				[
+					0.041999999433755875,
+					0.041999999433755875,
+					0.041999999433755875,
+					0.041999999433755875,
+					0.041999999433755875
+				],
+				"CompDuration" : 1,
+				"CompRows" : 1,
+				"CompSprites" : 5,
+				"mAtlasName" : "Default.png",
+				"mLayer" : 2,
+				"originalColor" : [ 1, 1, 1, 1 ]
+			}
+		},
+		{
+			"ID" : 187377808,
+			"Type" : "struct RigidBody",
+			"data" : 
+			{
+				"isBouncy" : false,
+				"isStatic" : false,
+				"mAcceleration" : [ 0, 0, null, null ],
+				"mAffectedByGravity" : true,
+				"mDrag" : 0.99000000953674316,
+				"mGravity" : [ 0, -500, null, null ],
+				"mInvMass" : 1,
+				"mPrevPosition" : [ 478.48291015625, -1324.01611328125, null, null ],
+				"mRestitution" : 0,
+				"mVelocity" : [ 0, 0, null, null ]
+			}
+		},
+		{
+			"ID" : 235149152,
+			"Type" : "class Graphics::LineRenderer",
+			"data" : null
+		},
+		{
+			"ID" : 235709400,
+			"Type" : "class Collider",
+			"data" : 
+			{
+				"colliderTransform" : 
+				{
+					"mAngle" : 0,
+					"mIsChild" : false,
+					"mPosition" : [ 0, 0, null, null ],
+					"mScale" : [ 1, 1, null, null ],
+					"mZorder" : 1,
+					"posX" : 0,
+					"posY" : 0
+				},
+				"collisionGroupName" : "sheepcollisiongroup",
+				"isGhost" : false
+			}
+		},
+		{
+			"ID" : 13699656,
+			"Type" : "class SheepStateMachine",
+			"data" : 
+			{
+				"cg1" : 450485616,
+				"mDetectionDis" : 450,
+				"mInitGen" : [ 691.98291015625, 1285.08837890625, null, null ],
+				"mInitialPos" : [ 691.98291015625, 1285.08837890625, null, null ],
+				"mMaxMovingRange" : 255,
+				"mTimeForDetect" : 1.5,
+				"mTimeForIdle" : 3.5,
+				"mTimeForPatrol" : 1,
+				"mVelocity" : 3.5
+			}
+		}
+	]
+}

@@ -1,0 +1,7 @@
+<root>
+    <FontFile value="src/Demos/Font Rendering/data/Sources/ProggyClean.ttf"/>
+    <FontTexFile value="src/Demos/Font Rendering/data/ProggyClean.png"/>
+    <StartChar value="32"/>
+    <EndChar value="197"/>
+    <FontSize value="13.000000"/>
+</root>

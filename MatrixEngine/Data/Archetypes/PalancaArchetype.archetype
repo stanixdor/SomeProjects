@@ -1,0 +1,83 @@
+{
+	"ID" : 69868592,
+	"Mode" : 0,
+	"Name" : "PalancaArchetype",
+	"components" : 
+	[
+		{
+			"ID" : 65768064,
+			"Type" : "class Transform2D",
+			"data" : 
+			{
+				"mAngle" : 0,
+				"mIsChild" : false,
+				"mPosition" : [ -3072.833251953125, -1196.336669921875, null, null ],
+				"mScale" : [ 372, 213, null, null ],
+				"mZorder" : 1,
+				"posX" : 0,
+				"posY" : 0
+			}
+		},
+		{
+			"ID" : 69863984,
+			"Type" : "class Graphics::Renderable",
+			"data" : 
+			{
+				"mIsVisible" : true,
+				"mLayer" : 2,
+				"mTextureName" : "Palanca off.png",
+				"originalColor" : [ 1, 1, 1, 1 ]
+			}
+		},
+		{
+			"ID" : 65768192,
+			"Type" : "class Activable",
+			"data" : 
+			{
+				"m_activableCogPaths" : [ 178253792 ],
+				"mbUseTimer" : false
+			}
+		},
+		{
+			"ID" : 139964560,
+			"Type" : "class Graphics::LineRenderer",
+			"data" : null
+		},
+		{
+			"ID" : 233017632,
+			"Type" : "struct RigidBody",
+			"data" : 
+			{
+				"isBouncy" : false,
+				"isStatic" : true,
+				"mAcceleration" : [ 0, 0, null, null ],
+				"mAffectedByGravity" : true,
+				"mDrag" : 0.99000000953674316,
+				"mGravity" : [ 0, -500, null, null ],
+				"mInvMass" : 0,
+				"mPrevPosition" : [ 0, 0, null, null ],
+				"mRestitution" : 0,
+				"mVelocity" : [ 0, 0, null, null ]
+			}
+		},
+		{
+			"ID" : 241602240,
+			"Type" : "class Collider",
+			"data" : 
+			{
+				"colliderTransform" : 
+				{
+					"mAngle" : 0,
+					"mIsChild" : false,
+					"mPosition" : [ 0, 0, null, null ],
+					"mScale" : [ 1, 1, null, null ],
+					"mZorder" : 1,
+					"posX" : 0,
+					"posY" : 0
+				},
+				"collisionGroupName" : "activable",
+				"isGhost" : false
+			}
+		}
+	]
+}

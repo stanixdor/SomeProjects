@@ -1,0 +1,125 @@
+{
+	"objects" : 
+	[
+		{
+			"Name" : "camera",
+			"components" : 
+			[
+				{
+					"Type" : "class Transform2D",
+					"data" : 
+					{
+						"posX" : 0,
+						"posY" : 0
+					}
+				},
+				{
+					"Type" : "class Graphics::Camera",
+					"data" : null
+				}
+			]
+		},
+		{
+			"Name" : "player",
+			"components" : 
+			[
+				{
+					"Type" : "class Transform2D",
+					"data" : 
+					{
+						"posX" : 0,
+						"posY" : 0
+					}
+				},
+				{
+					"Type" : "class Graphics::AnimComp",
+					"data" : null
+				},
+				{
+					"Type" : "class StateMachine",
+					"data" : null
+				},
+				{
+					"Type" : "struct RigidBody",
+					"data" : null
+				}
+			]
+		},
+		{
+			"Name" : "floor",
+			"components" : 
+			[
+				{
+					"Type" : "class Transform2D",
+					"data" : 
+					{
+						"posX" : 0,
+						"posY" : 0
+					}
+				},
+				{
+					"Type" : "class Graphics::Renderable",
+					"data" : null
+				},
+				{
+					"Type" : "struct RigidBody",
+					"data" : null
+				}
+			]
+		},
+		{
+			"Name" : "Do not touch",
+			"components" : 
+			[
+				{
+					"Type" : "class Transform2D",
+					"data" : 
+					{
+						"posX" : 0,
+						"posY" : 0
+					}
+				},
+				{
+					"Type" : "class Graphics::LineRenderer",
+					"data" : null
+				}
+			]
+		},
+		{
+			"Name" : "Mouse Cursor",
+			"components" : 
+			[
+				{
+					"Type" : "class Transform2D",
+					"data" : 
+					{
+						"posX" : 0,
+						"posY" : 0
+					}
+				},
+				{
+					"Type" : "class Graphics::Renderable",
+					"data" : null
+				}
+			]
+		},
+		{
+			"Name" : "test",
+			"components" : 
+			[
+				{
+					"Type" : "class Transform2D",
+					"data" : 
+					{
+						"posX" : 0,
+						"posY" : 0
+					}
+				},
+				{
+					"Type" : "class Graphics::Renderable",
+					"data" : null
+				}
+			]
+		}
+	]
+}

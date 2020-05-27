@@ -1,0 +1,47 @@
+{
+	"ID" : 118171136,
+	"Mode" : 0,
+	"Name" : "ThrowHead",
+	"components" : 
+	[
+		{
+			"ID" : 79317760,
+			"Type" : "class Transform2D",
+			"data" : 
+			{
+				"mAngle" : 0,
+				"mIsChild" : false,
+				"mPosition" : [ -2645.1708984375, 55.218017578125, null, null ],
+				"mScale" : [ 50, 50, null, null ],
+				"mZorder" : 1,
+				"posX" : 0,
+				"posY" : 0
+			}
+		},
+		{
+			"ID" : 141523776,
+			"Type" : "class Graphics::AnimComp",
+			"data" : 
+			{
+				"CompColumns" : 8,
+				"CompDelays" : 
+				[
+					0,
+					0.020999999716877937,
+					0.020999999716877937,
+					0.041999999433755875,
+					0.041999999433755875,
+					0.041999999433755875,
+					0.041999999433755875,
+					0.041999999433755875
+				],
+				"CompDuration" : 2,
+				"CompRows" : 1,
+				"CompSprites" : 8,
+				"mAtlasName" : "Dibo head tongue sprite sheet.png",
+				"mLayer" : 2,
+				"originalColor" : [ 1, 1, 1, 1 ]
+			}
+		}
+	]
+}

@@ -1,0 +1,97 @@
+{
+	"ID" : 2697077299456,
+	"Mode" : 0,
+	"Name" : "Luciernaga-2",
+	"components" : 
+	[
+		{
+			"ID" : 2697076678304,
+			"Type" : "class Transform2D",
+			"data" : 
+			{
+				"mAngle" : 0,
+				"mIsChild" : false,
+				"mPosition" : [ -3071.65234375, 2231.255615234375, null, null ],
+				"mScale" : [ 80, 59.5, null, null ],
+				"mZorder" : 3,
+				"posX" : 0,
+				"posY" : 0
+			}
+		},
+		{
+			"ID" : 2697077294256,
+			"Type" : "class Graphics::LineRenderer",
+			"data" : null
+		},
+		{
+			"ID" : 2697078092080,
+			"Type" : "struct RigidBody",
+			"data" : 
+			{
+				"isBouncy" : false,
+				"isStatic" : true,
+				"mAcceleration" : [ 0, 0, null, null ],
+				"mAffectedByGravity" : true,
+				"mDrag" : 0.99000000953674316,
+				"mGravity" : [ 0, -500, null, null ],
+				"mInvMass" : 0,
+				"mPrevPosition" : [ 0, 0, null, null ],
+				"mRestitution" : 0,
+				"mVelocity" : [ 0, 0, null, null ]
+			}
+		},
+		{
+			"ID" : 2697076840272,
+			"Type" : "class Collider",
+			"data" : 
+			{
+				"colliderTransform" : 
+				{
+					"mAngle" : 0,
+					"mIsChild" : false,
+					"mPosition" : [ 0, 0, null, null ],
+					"mScale" : [ 1, 1, null, null ],
+					"mZorder" : 1,
+					"posX" : 0,
+					"posY" : 0
+				},
+				"collisionGroupName" : "collectiblecollisiongroup",
+				"isGhost" : false
+			}
+		},
+		{
+			"ID" : 2697073024464,
+			"Type" : "class CollectibleComponent",
+			"data" : null
+		},
+		{
+			"ID" : 2014521990496,
+			"Type" : "class Graphics::AnimComp",
+			"data" : 
+			{
+				"CompColumns" : 2,
+				"CompDelays" : 
+				[
+					0.039999999105930328,
+					0.039999999105930328,
+					0.039999999105930328,
+					0.039999999105930328
+				],
+				"CompDuration" : 2,
+				"CompRows" : 2,
+				"CompSprites" : 4,
+				"mAtlasName" : "glow.png",
+				"mLayer" : 2,
+				"originalColor" : [ 1, 1, 1, 1 ]
+			}
+		},
+		{
+			"ID" : 2833281038224,
+			"Type" : "class FlyComponent",
+			"data" : 
+			{
+				"InitialPosition" : [ -3063.024169921875, 2223.288818359375, null, null ]
+			}
+		}
+	]
+}

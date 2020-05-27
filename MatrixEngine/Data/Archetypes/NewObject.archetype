@@ -1,0 +1,72 @@
+{
+	"ID" : 156934944,
+	"Name" : "NewObject",
+	"components" : 
+	[
+		{
+			"ID" : 6587488,
+			"Type" : "class Transform2D",
+			"data" : 
+			{
+				"mAngle" : 0,
+				"mIsChild" : false,
+				"mPosition" : [ -1424.134033203125, -1448.57177734375, null, null ],
+				"mScale" : [ 1019, 164, null, null ],
+				"mZorder" : 5,
+				"posX" : 0,
+				"posY" : 0
+			}
+		},
+		{
+			"ID" : 149929464,
+			"Type" : "class Graphics::Renderable",
+			"data" : 
+			{
+				"mIsVisible" : true,
+				"mLayer" : 2,
+				"mTextureName" : "2-6.png"
+			}
+		},
+		{
+			"ID" : 197923712,
+			"Type" : "struct RigidBody",
+			"data" : 
+			{
+				"isBouncy" : false,
+				"isStatic" : true,
+				"mAcceleration" : [ 0, 0, null, null ],
+				"mAffectedByGravity" : true,
+				"mDrag" : 0.99000000953674316,
+				"mGravity" : [ 0, -500, null, null ],
+				"mInvMass" : 0,
+				"mPrevPosition" : [ 0, 0, null, null ],
+				"mRestitution" : 0,
+				"mVelocity" : [ 0, 0, null, null ]
+			}
+		},
+		{
+			"ID" : 200733456,
+			"Type" : "class Graphics::LineRenderer",
+			"data" : null
+		},
+		{
+			"ID" : 197262448,
+			"Type" : "class Collider",
+			"data" : 
+			{
+				"colliderTransform" : 
+				{
+					"mAngle" : 0,
+					"mIsChild" : false,
+					"mPosition" : [ 120, -67, null, null ],
+					"mScale" : [ 2, 1, null, null ],
+					"mZorder" : 0,
+					"posX" : 0,
+					"posY" : 0
+				},
+				"collisionGroupName" : "floor",
+				"isGhost" : false
+			}
+		}
+	]
+}

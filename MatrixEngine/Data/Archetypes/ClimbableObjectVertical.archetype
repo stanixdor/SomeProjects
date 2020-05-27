@@ -1,0 +1,73 @@
+{
+	"ID" : 0,
+	"Name" : "ClimbableObjectVertical",
+	"components" : 
+	[
+		{
+			"ID" : 0,
+			"Type" : "class Transform2D",
+			"data" : 
+			{
+				"mAngle" : 0,
+				"mIsChild" : false,
+				"mPosition" : [ -144.66665649414063, 122, null, null ],
+				"mScale" : [ 50, 200, null, null ],
+				"mZorder" : 0.5,
+				"posX" : 0,
+				"posY" : 0
+			}
+		},
+		{
+			"ID" : 0,
+			"Type" : "class Graphics::Renderable",
+			"data" : 
+			{
+				"mIsVisible" : true,
+				"mLayer" : 2,
+				"mTextureName" : "Moho central Vertical.png"
+			}
+		},
+		{
+			"ID" : 0,
+			"Type" : "struct RigidBody",
+			"data" : 
+			{
+				"isBouncy" : false,
+				"isStatic" : true,
+				"mAcceleration" : [ 0, 0, null, null ],
+				"mAffectedByGravity" : true,
+				"mDrag" : 0.99000000953674316,
+				"mGravity" : [ 0, -500, null, null ],
+				"mInvMass" : 0,
+				"mPrevPosition" : [ 0, 0, null, null ],
+				"mRestitution" : 0,
+				"mVelocity" : [ 0, 0, null, null ]
+			}
+		},
+		{
+			"ID" : 0,
+			"Type" : "class PropulsionObject",
+			"data" : null
+		},
+		{
+			"ID" : 0,
+			"Type" : "class ClimbableObject",
+			"data" : null
+		},
+		{
+			"ID" : 0,
+			"Type" : "class Graphics::LineRenderer",
+			"data" : null
+		},
+		{
+			"ID" : 0,
+			"Type" : "class Collider",
+			"data" : 
+			{
+				"collisionGroupName" : "climbableobj",
+				"isGhost" : false,
+				"positionOffset" : [ 0, 0, null, null ]
+			}
+		}
+	]
+}

@@ -1,0 +1,76 @@
+{
+	"ID" : 123222224,
+	"Name" : "background",
+	"components" : 
+	[
+		{
+			"ID" : 98423832,
+			"Type" : "class Transform2D",
+			"data" : 
+			{
+				"mAngle" : 0,
+				"mIsChild" : false,
+				"mPosition" : [ 5620.341796875, -3918.009765625, null, null ],
+				"mScale" : [ 200, 200, null, null ],
+				"mZorder" : 5,
+				"posX" : 0,
+				"posY" : 0
+			}
+		},
+		{
+			"ID" : 134030864,
+			"Type" : "class Graphics::AnimComp",
+			"data" : 
+			{
+				"CompColumns" : 1,
+				"CompDelays" : [],
+				"CompDuration" : 2,
+				"CompRows" : 1,
+				"CompSprites" : 1,
+				"mAtlasName" : "Default.png",
+				"mLayer" : 2
+			}
+		},
+		{
+			"ID" : 376404840,
+			"Type" : "struct RigidBody",
+			"data" : 
+			{
+				"isBouncy" : false,
+				"isStatic" : true,
+				"mAcceleration" : [ 0, 0, null, null ],
+				"mAffectedByGravity" : true,
+				"mDrag" : 0.99000000953674316,
+				"mGravity" : [ 0, -500, null, null ],
+				"mInvMass" : 0,
+				"mPrevPosition" : [ 0, 0, null, null ],
+				"mRestitution" : 0,
+				"mVelocity" : [ 0, 0, null, null ]
+			}
+		},
+		{
+			"ID" : 554605104,
+			"Type" : "class Graphics::LineRenderer",
+			"data" : null
+		},
+		{
+			"ID" : 492853408,
+			"Type" : "class Collider",
+			"data" : 
+			{
+				"colliderTransform" : 
+				{
+					"mAngle" : 0,
+					"mIsChild" : false,
+					"mPosition" : [ 0, 0, null, null ],
+					"mScale" : [ 1, 1, null, null ],
+					"mZorder" : 1,
+					"posX" : 0,
+					"posY" : 0
+				},
+				"collisionGroupName" : "default",
+				"isGhost" : false
+			}
+		}
+	]
+}

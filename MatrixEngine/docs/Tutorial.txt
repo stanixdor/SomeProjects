@@ -1,0 +1,37 @@
+This is a simple tutorial in which I provide you the code with a basic audio system that works with fmod. (http://www.fmod.org)
+
+All the files necessary are located in Audio.h an Audio.cpp.
+A demo level (Level1.cpp) is provided that shows how to use the audio manager. 
+
+1) Setup
+---------
+- First things first, create a new Visual Studio project and include the Alpha Engine as we did in previous labs (or just copy the latest lab project). 
+
+- Since the audio manager is based on the FMOD audio API, we will need to modify the project properties to include it. This process is very similar to including the alpha engine. 
+	- The FMOD headers and libraries are all located in src/Extern/fmod/ (provided). 
+	- In your project properties (right-click on the project in the solution and select "properties"). 
+		1. Under C/C++ > General > Additional Include Directories, add a new include path to the fmod folder (see IncludeFMOD.png). 
+		2. Under Linker > General > Additional Library Directories, add a new path to the fmod folder (same as above). (see IncludeFMODLibrary.png)
+		3. Under Linker > Input > Additional Dependencies, add new dependency to the file fmode_vc.lib (see IncludeFMODLibrary2.png). 
+	
+- Add the provided source files to your project, those are:
+	- main.cpp
+	- level1.h.cpp
+	- Audio.h/.cpp
+
+- When running the project for the first time, you will receive an error saying that fmod.dll is missing from your computer. This is normal, you just need to copy the dll in the folder where your game executable is located (generally, $(ProjectDir)bin/Debug). 
+	
+2) Usage
+---------
+- Using the audio system is pretty straightforward. You mainly interface with the global variable gAudioMgr, which is initialized before the game loop, updated every frame and terminated after the gameloop ends (look at main.cpp) for an example. 
+
+- Essentially, the audio manager (gAudioMgr) is used to load sounds from file. You can do this using the function CreateSound(). This function returns a pointer to a Sound class. 
+- The Sound class is the unique shared resource for a sound. To play/loop a sound, call the Play() function of the gAudioMgr object, passing the Sound that you wish to play. 
+- The Play() function will then return a pointer to a Voice struct. A voice is the instance of a sound (basically, you have only one sound but multiple voices of the same sound). 
+- Voices can then be further controlled on per-instance basis. For now, the only things you can control are the volume of the voice, whether it loops or now, pause. 
+- If a voice is not set to loop, after it finishes playing, it is no longer valid, in this case, the IsValid() function will return false. When a voice is no longer valid, you should not use it anymore. To play that sound again, just call gAudioMgr.Play() again. 
+
+Make sure to read Level1.cpp thoroughly to get a sense of the interactions between Voice, Sound and gAudioMgr. 
+	
+		
+

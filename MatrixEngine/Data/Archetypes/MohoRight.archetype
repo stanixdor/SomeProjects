@@ -1,0 +1,149 @@
+<<<<<<< HEAD
+{
+	"ID" : 302943592,
+	"Name" : "MohoRight",
+	"components" : 
+	[
+		{
+			"ID" : 10675344,
+			"Type" : "class Transform2D",
+			"data" : 
+			{
+				"mAngle" : 0,
+				"mIsChild" : false,
+				"mPosition" : [ -175.39736938476563, 146.78762817382813, null, null ],
+				"mScale" : [ 50, 45, null, null ],
+				"mZorder" : 1,
+				"posX" : 0,
+				"posY" : 0
+			}
+		},
+		{
+			"ID" : 302853152,
+			"Type" : "class Graphics::Renderable",
+			"data" : 
+			{
+				"mIsVisible" : true,
+				"mLayer" : 2,
+				"mTextureName" : "Moho right part  Horizontal.png"
+			}
+		},
+		{
+			"ID" : 302184552,
+			"Type" : "struct RigidBody",
+			"data" : 
+			{
+				"isBouncy" : false,
+				"isStatic" : true,
+				"mAcceleration" : [ 0, 0, null, null ],
+				"mAffectedByGravity" : true,
+				"mDrag" : 0.99000000953674316,
+				"mGravity" : [ 0, -500, null, null ],
+				"mInvMass" : 0,
+				"mPrevPosition" : [ 0, 0, null, null ],
+				"mRestitution" : 0,
+				"mVelocity" : [ 0, 0, null, null ]
+			}
+		},
+		{
+			"ID" : 302666456,
+			"Type" : "class Graphics::LineRenderer",
+			"data" : null
+		},
+		{
+			"ID" : 302944120,
+			"Type" : "class Collider",
+			"data" : 
+			{
+				"collisionGroupName" : "climbableobj",
+				"isGhost" : false,
+				"positionOffset" : [ 0, 0, null, null ]
+			}
+		},
+		{
+			"ID" : 302911600,
+			"Type" : "class ClimbableObject",
+			"data" : null
+		},
+		{
+			"ID" : 303250976,
+			"Type" : "class PropulsionObject",
+			"data" : null
+		}
+	]
+}
+=======
+{
+	"ID" : 302943592,
+	"Name" : "MohoRight",
+	"components" : 
+	[
+		{
+			"ID" : 10675344,
+			"Type" : "class Transform2D",
+			"data" : 
+			{
+				"mAngle" : 0,
+				"mIsChild" : false,
+				"mPosition" : [ -175.39736938476563, 146.78762817382813, null, null ],
+				"mScale" : [ 50, 45, null, null ],
+				"mZorder" : 1,
+				"posX" : 0,
+				"posY" : 0
+			}
+		},
+		{
+			"ID" : 302853152,
+			"Type" : "class Graphics::Renderable",
+			"data" : 
+			{
+				"mIsVisible" : true,
+				"mLayer" : 2,
+				"mTextureName" : "Moho right part  Horizontal.png"
+			}
+		},
+		{
+			"ID" : 302184552,
+			"Type" : "struct RigidBody",
+			"data" : 
+			{
+				"isBouncy" : false,
+				"isStatic" : true,
+				"mAcceleration" : [ 0, 0, null, null ],
+				"mAffectedByGravity" : true,
+				"mDrag" : 0.99000000953674316,
+				"mGravity" : [ 0, -500, null, null ],
+				"mInvMass" : 0,
+				"mPrevPosition" : [ 0, 0, null, null ],
+				"mRestitution" : 0,
+				"mVelocity" : [ 0, 0, null, null ]
+			}
+		},
+		{
+			"ID" : 302666456,
+			"Type" : "class Graphics::LineRenderer",
+			"data" : null
+		},
+		{
+			"ID" : 302944120,
+			"Type" : "class Collider",
+			"data" : 
+			{
+				"collisionGroupName" : "climbableobj",
+				"isGhost" : false,
+				"positionOffset" : [ 0, 0, null, null ]
+			}
+		},
+		{
+			"ID" : 302911600,
+			"Type" : "class ClimbableObject",
+			"data" : null
+		},
+		{
+			"ID" : 303250976,
+			"Type" : "class PropulsionObject",
+			"data" : null
+		}
+	]
+}
+>>>>>>> Jokin

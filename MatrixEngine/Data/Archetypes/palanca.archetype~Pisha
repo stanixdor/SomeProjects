@@ -1,0 +1,72 @@
+{
+	"ID" : 123222224,
+	"Name" : "palanca",
+	"components" : 
+	[
+		{
+			"ID" : 98423832,
+			"Type" : "class Transform2D",
+			"data" : 
+			{
+				"mAngle" : 0,
+				"mIsChild" : false,
+				"mPosition" : [ 7579.06884765625, -372.91802978515625, null, null ],
+				"mScale" : [ 372, 213, null, null ],
+				"mZorder" : 20,
+				"posX" : 0,
+				"posY" : 0
+			}
+		},
+		{
+			"ID" : 123654856,
+			"Type" : "class Graphics::Renderable",
+			"data" : 
+			{
+				"mIsVisible" : true,
+				"mLayer" : 2,
+				"mTextureName" : "Palanca off.png"
+			}
+		},
+		{
+			"ID" : 347554864,
+			"Type" : "struct RigidBody",
+			"data" : 
+			{
+				"isBouncy" : false,
+				"isStatic" : true,
+				"mAcceleration" : [ 0, 0, null, null ],
+				"mAffectedByGravity" : true,
+				"mDrag" : 0.99000000953674316,
+				"mGravity" : [ 0, -500, null, null ],
+				"mInvMass" : 0,
+				"mPrevPosition" : [ 0, 0, null, null ],
+				"mRestitution" : 0,
+				"mVelocity" : [ 0, 0, null, null ]
+			}
+		},
+		{
+			"ID" : 346164704,
+			"Type" : "class Graphics::LineRenderer",
+			"data" : null
+		},
+		{
+			"ID" : 324280464,
+			"Type" : "class Collider",
+			"data" : 
+			{
+				"colliderTransform" : 
+				{
+					"mAngle" : 0,
+					"mIsChild" : false,
+					"mPosition" : [ -10, 0, null, null ],
+					"mScale" : [ 0.80000001192092896, 0.80000001192092896, null, null ],
+					"mZorder" : 0,
+					"posX" : 0,
+					"posY" : 0
+				},
+				"collisionGroupName" : "activable",
+				"isGhost" : false
+			}
+		}
+	]
+}

@@ -1,0 +1,49 @@
+{
+	"Name" : "ZClimb",
+	"components" : 
+	[
+		{
+			"Type" : "class Transform2D",
+			"data" : 
+			{
+				"mAngle" : 0,
+				"mIsChild" : false,
+				"mPosition" : [ 0, 200, null, null ],
+				"mScale" : [ 50, 50, null, null ],
+				"mZorder" : 1,
+				"posX" : 0,
+				"posY" : 0
+			}
+		},
+		{
+			"Type" : "class Graphics::Renderable",
+			"data" : 
+			{
+				"mIsVisible" : true,
+				"mLayer" : 2,
+				"mTextureName" : "Default.png"
+			}
+		},
+		{
+			"Type" : "struct RigidBody",
+			"data" : 
+			{
+				"collisionGroupName" : "zclimbableobj",
+				"isBouncy" : false,
+				"isStatic" : true,
+				"mAcceleration" : [ 0, 0, null, null ],
+				"mAffectedByGravity" : true,
+				"mDrag" : 0.99000000953674316,
+				"mGravity" : [ 0, -500, null, null ],
+				"mInvMass" : 0,
+				"mPrevPosition" : [ 0, 0, null, null ],
+				"mRestitution" : 1,
+				"mVelocity" : [ 0, 0, null, null ]
+			}
+		},
+		{
+			"Type" : "class ZClimbableObject",
+			"data" : null
+		}
+	]
+}

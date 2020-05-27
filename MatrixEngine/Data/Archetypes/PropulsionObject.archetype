@@ -1,0 +1,68 @@
+{
+	"ID" : 0,
+	"Name" : "PropulsionObject",
+	"components" : 
+	[
+		{
+			"ID" : 0,
+			"Type" : "class Transform2D",
+			"data" : 
+			{
+				"mAngle" : 0,
+				"mIsChild" : false,
+				"mPosition" : [ -276.66671752929688, 120, null, null ],
+				"mScale" : [ 30, 20, null, null ],
+				"mZorder" : 1,
+				"posX" : 0,
+				"posY" : 0
+			}
+		},
+		{
+			"ID" : 0,
+			"Type" : "class Graphics::Renderable",
+			"data" : 
+			{
+				"mIsVisible" : true,
+				"mLayer" : 2,
+				"mTextureName" : "carete.png"
+			}
+		},
+		{
+			"ID" : 0,
+			"Type" : "struct RigidBody",
+			"data" : 
+			{
+				"isBouncy" : false,
+				"isStatic" : true,
+				"mAcceleration" : [ 0, 0, null, null ],
+				"mAffectedByGravity" : true,
+				"mDrag" : 0.99000000953674316,
+				"mGravity" : [ 0, -500, null, null ],
+				"mInvMass" : 0,
+				"mPrevPosition" : [ 0, 0, null, null ],
+				"mRestitution" : 0,
+				"mVelocity" : [ 0, 0, null, null ]
+			}
+		},
+		{
+			"ID" : 0,
+			"Type" : "class Graphics::LineRenderer",
+			"data" : null
+		},
+		{
+			"ID" : 0,
+			"Type" : "class Collider",
+			"data" : 
+			{
+				"collisionGroupName" : "propulsionobj",
+				"isGhost" : false,
+				"positionOffset" : [ 0, 0, null, null ]
+			}
+		},
+		{
+			"ID" : 0,
+			"Type" : "class PropulsionObject",
+			"data" : null
+		}
+	]
+}

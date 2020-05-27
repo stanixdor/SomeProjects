@@ -1,0 +1,1510 @@
+{
+	"objects" : 
+	[
+		{
+			"ID" : 70771264,
+			"Mode" : 0,
+			"Name" : "Dibo",
+			"components" : 
+			[
+				{
+					"ID" : 2089328,
+					"Type" : "class Transform2D",
+					"data" : 
+					{
+						"mAngle" : 0,
+						"mIsChild" : false,
+						"mPosition" : [ -2936.233154296875, 202.5721435546875, null, null ],
+						"mScale" : [ 157, 253, null, null ],
+						"mZorder" : 1,
+						"posX" : 0,
+						"posY" : 0
+					}
+				},
+				{
+					"ID" : 66090448,
+					"Type" : "class Graphics::Renderable",
+					"data" : 
+					{
+						"mIsVisible" : true,
+						"mLayer" : 2,
+						"mTextureName" : "Dibo.png",
+						"originalColor" : [ 1, 1, 1, 1 ]
+					}
+				}
+			]
+		},
+		{
+			"ID" : 70808480,
+			"Mode" : 0,
+			"Name" : "S1-3",
+			"components" : 
+			[
+				{
+					"ID" : 66603392,
+					"Type" : "class Transform2D",
+					"data" : 
+					{
+						"mAngle" : 0,
+						"mIsChild" : false,
+						"mPosition" : [ -2745.673828125, 80.022117614746094, null, null ],
+						"mScale" : [ 58, 107, null, null ],
+						"mZorder" : 1,
+						"posX" : 0,
+						"posY" : 0
+					}
+				},
+				{
+					"ID" : 66090256,
+					"Type" : "class Graphics::Renderable",
+					"data" : 
+					{
+						"mIsVisible" : true,
+						"mLayer" : 2,
+						"mTextureName" : "Suelo_drcha.png",
+						"originalColor" : [ 1, 1, 1, 1 ]
+					}
+				}
+			]
+		},
+		{
+			"ID" : 70808480,
+			"Mode" : 0,
+			"Name" : "S1-1",
+			"components" : 
+			[
+				{
+					"ID" : 66603392,
+					"Type" : "class Transform2D",
+					"data" : 
+					{
+						"mAngle" : 0,
+						"mIsChild" : false,
+						"mPosition" : [ -3913.007080078125, 80.310470581054688, null, null ],
+						"mScale" : [ 69, 107, null, null ],
+						"mZorder" : 1,
+						"posX" : 0,
+						"posY" : 0
+					}
+				},
+				{
+					"ID" : 66090256,
+					"Type" : "class Graphics::Renderable",
+					"data" : 
+					{
+						"mIsVisible" : true,
+						"mLayer" : 2,
+						"mTextureName" : "Suelo_izq.png",
+						"originalColor" : [ 1, 1, 1, 1 ]
+					}
+				},
+				{
+					"ID" : 57677408,
+					"Type" : "class Graphics::LineRenderer",
+					"data" : null
+				},
+				{
+					"ID" : 66987808,
+					"Type" : "struct RigidBody",
+					"data" : 
+					{
+						"isBouncy" : false,
+						"isStatic" : true,
+						"mAcceleration" : [ 0, 0, null, null ],
+						"mAffectedByGravity" : true,
+						"mDrag" : 0.99000000953674316,
+						"mGravity" : [ 0, -500, null, null ],
+						"mInvMass" : 0,
+						"mPrevPosition" : [ 0, 0, null, null ],
+						"mRestitution" : 0,
+						"mVelocity" : [ 0, 0, null, null ]
+					}
+				},
+				{
+					"ID" : 57486880,
+					"Type" : "class Collider",
+					"data" : 
+					{
+						"colliderTransform" : 
+						{
+							"mAngle" : 0,
+							"mIsChild" : false,
+							"mPosition" : [ 580, -30, null, null ],
+							"mScale" : [ 17, 1, null, null ],
+							"mZorder" : 1,
+							"posX" : 0,
+							"posY" : 0
+						},
+						"collisionGroupName" : "floor",
+						"isGhost" : false
+					}
+				}
+			]
+		},
+		{
+			"ID" : 78563152,
+			"Mode" : 0,
+			"Name" : "S1-2",
+			"components" : 
+			[
+				{
+					"ID" : 74507696,
+					"Type" : "class Transform2D",
+					"data" : 
+					{
+						"mAngle" : 0,
+						"mIsChild" : false,
+						"mPosition" : [ -3504.30810546875, 78.781608581542969, null, null ],
+						"mScale" : [ 754, 118, null, null ],
+						"mZorder" : 1,
+						"posX" : 0,
+						"posY" : 0
+					}
+				},
+				{
+					"ID" : 65956288,
+					"Type" : "class Graphics::Renderable",
+					"data" : 
+					{
+						"mIsVisible" : true,
+						"mLayer" : 2,
+						"mTextureName" : "Suelo_01.png",
+						"originalColor" : [ 1, 1, 1, 1 ]
+					}
+				}
+			]
+		},
+		{
+			"ID" : 70808480,
+			"Mode" : 0,
+			"Name" : "S2-1",
+			"components" : 
+			[
+				{
+					"ID" : 66603392,
+					"Type" : "class Transform2D",
+					"data" : 
+					{
+						"mAngle" : 0,
+						"mIsChild" : false,
+						"mPosition" : [ -2769.365478515625, 907.52606201171875, null, null ],
+						"mScale" : [ 69, 107, null, null ],
+						"mZorder" : 1,
+						"posX" : 0,
+						"posY" : 0
+					}
+				},
+				{
+					"ID" : 66090256,
+					"Type" : "class Graphics::Renderable",
+					"data" : 
+					{
+						"mIsVisible" : true,
+						"mLayer" : 2,
+						"mTextureName" : "Suelo_izq.png",
+						"originalColor" : [ 1, 1, 1, 1 ]
+					}
+				},
+				{
+					"ID" : 57677408,
+					"Type" : "class Graphics::LineRenderer",
+					"data" : null
+				},
+				{
+					"ID" : 66987808,
+					"Type" : "struct RigidBody",
+					"data" : 
+					{
+						"isBouncy" : false,
+						"isStatic" : true,
+						"mAcceleration" : [ 0, 0, null, null ],
+						"mAffectedByGravity" : true,
+						"mDrag" : 0.99000000953674316,
+						"mGravity" : [ 0, -500, null, null ],
+						"mInvMass" : 0,
+						"mPrevPosition" : [ 0, 0, null, null ],
+						"mRestitution" : 0,
+						"mVelocity" : [ 0, 0, null, null ]
+					}
+				},
+				{
+					"ID" : 57486880,
+					"Type" : "class Collider",
+					"data" : 
+					{
+						"colliderTransform" : 
+						{
+							"mAngle" : 0,
+							"mIsChild" : false,
+							"mPosition" : [ 750, -30, null, null ],
+							"mScale" : [ 22, 1, null, null ],
+							"mZorder" : 1,
+							"posX" : 0,
+							"posY" : 0
+						},
+						"collisionGroupName" : "floor",
+						"isGhost" : false
+					}
+				}
+			]
+		},
+		{
+			"ID" : 78563152,
+			"Mode" : 0,
+			"Name" : "S2-2",
+			"components" : 
+			[
+				{
+					"ID" : 74507696,
+					"Type" : "class Transform2D",
+					"data" : 
+					{
+						"mAngle" : 0,
+						"mIsChild" : false,
+						"mPosition" : [ -1841.86474609375, 905.91290283203125, null, null ],
+						"mScale" : [ 367, 128, null, null ],
+						"mZorder" : 1,
+						"posX" : 0,
+						"posY" : 0
+					}
+				},
+				{
+					"ID" : 65956288,
+					"Type" : "class Graphics::Renderable",
+					"data" : 
+					{
+						"mIsVisible" : true,
+						"mLayer" : 2,
+						"mTextureName" : "Suelo3.png",
+						"originalColor" : [ 1, 1, 1, 1 ]
+					}
+				}
+			]
+		},
+		{
+			"ID" : 70808480,
+			"Mode" : 0,
+			"Name" : "S2-3",
+			"components" : 
+			[
+				{
+					"ID" : 66603392,
+					"Type" : "class Transform2D",
+					"data" : 
+					{
+						"mAngle" : 0,
+						"mIsChild" : false,
+						"mPosition" : [ -1283.52783203125, 907.374755859375, null, null ],
+						"mScale" : [ 58, 107, null, null ],
+						"mZorder" : 1,
+						"posX" : 0,
+						"posY" : 0
+					}
+				},
+				{
+					"ID" : 66090256,
+					"Type" : "class Graphics::Renderable",
+					"data" : 
+					{
+						"mIsVisible" : true,
+						"mLayer" : 2,
+						"mTextureName" : "Suelo_drcha.png",
+						"originalColor" : [ 1, 1, 1, 1 ]
+					}
+				}
+			]
+		},
+		{
+			"ID" : 78563152,
+			"Mode" : 0,
+			"Name" : "S3-2",
+			"components" : 
+			[
+				{
+					"ID" : 74507696,
+					"Type" : "class Transform2D",
+					"data" : 
+					{
+						"mAngle" : 0,
+						"mIsChild" : false,
+						"mPosition" : [ -2222.8330078125, 79.653717041015625, null, null ],
+						"mScale" : [ 730, 110, null, null ],
+						"mZorder" : -2,
+						"posX" : 0,
+						"posY" : 0
+					}
+				},
+				{
+					"ID" : 65956288,
+					"Type" : "class Graphics::Renderable",
+					"data" : 
+					{
+						"mIsVisible" : true,
+						"mLayer" : 2,
+						"mTextureName" : "Suelo_02.png",
+						"originalColor" : [ 1, 1, 1, 1 ]
+					}
+				}
+			]
+		},
+		{
+			"ID" : 78563152,
+			"Mode" : 0,
+			"Name" : "S3-3",
+			"components" : 
+			[
+				{
+					"ID" : 74507696,
+					"Type" : "class Transform2D",
+					"data" : 
+					{
+						"mAngle" : 0,
+						"mIsChild" : false,
+						"mPosition" : [ -1490.1220703125, 77.089080810546875, null, null ],
+						"mScale" : [ 754, 118, null, null ],
+						"mZorder" : -2,
+						"posX" : 0,
+						"posY" : 0
+					}
+				},
+				{
+					"ID" : 65956288,
+					"Type" : "class Graphics::Renderable",
+					"data" : 
+					{
+						"mIsVisible" : true,
+						"mLayer" : 2,
+						"mTextureName" : "Suelo_01.png",
+						"originalColor" : [ 1, 1, 1, 1 ]
+					}
+				}
+			]
+		},
+		{
+			"ID" : 78505952,
+			"Mode" : 0,
+			"Name" : "P1-2",
+			"components" : 
+			[
+				{
+					"ID" : 75289392,
+					"Type" : "class Transform2D",
+					"data" : 
+					{
+						"mAngle" : 0,
+						"mIsChild" : false,
+						"mPosition" : [ -3644.430908203125, 1845.341552734375, null, null ],
+						"mScale" : [ -180, 775, null, null ],
+						"mZorder" : 1,
+						"posX" : 0,
+						"posY" : 0
+					}
+				},
+				{
+					"ID" : 66741376,
+					"Type" : "class Graphics::Renderable",
+					"data" : 
+					{
+						"mIsVisible" : true,
+						"mLayer" : 2,
+						"mTextureName" : "pared2.png",
+						"originalColor" : [ 1, 1, 1, 1 ]
+					}
+				}
+			]
+		},
+		{
+			"ID" : 78505952,
+			"Mode" : 0,
+			"Name" : "P1-1",
+			"components" : 
+			[
+				{
+					"ID" : 75289392,
+					"Type" : "class Transform2D",
+					"data" : 
+					{
+						"mAngle" : 0,
+						"mIsChild" : false,
+						"mPosition" : [ -3644.09765625, 1088.39599609375, null, null ],
+						"mScale" : [ -180, 773, null, null ],
+						"mZorder" : 1,
+						"posX" : 0,
+						"posY" : 0
+					}
+				},
+				{
+					"ID" : 66741376,
+					"Type" : "class Graphics::Renderable",
+					"data" : 
+					{
+						"mIsVisible" : true,
+						"mLayer" : 2,
+						"mTextureName" : "pared1.png",
+						"originalColor" : [ 1, 1, 1, 1 ]
+					}
+				},
+				{
+					"ID" : 1584592342432,
+					"Type" : "class Graphics::LineRenderer",
+					"data" : null
+				},
+				{
+					"ID" : 1583844543136,
+					"Type" : "struct RigidBody",
+					"data" : 
+					{
+						"isBouncy" : false,
+						"isStatic" : true,
+						"mAcceleration" : [ 0, 0, null, null ],
+						"mAffectedByGravity" : true,
+						"mDrag" : 0.99000000953674316,
+						"mGravity" : [ 0, -500, null, null ],
+						"mInvMass" : 0,
+						"mPrevPosition" : [ 0, 0, null, null ],
+						"mRestitution" : 0,
+						"mVelocity" : [ 0, 0, null, null ]
+					}
+				},
+				{
+					"ID" : 1584632693520,
+					"Type" : "class Collider",
+					"data" : 
+					{
+						"colliderTransform" : 
+						{
+							"mAngle" : 0,
+							"mIsChild" : false,
+							"mPosition" : [ -30, 650, null, null ],
+							"mScale" : [ 1, 2.7999999523162842, null, null ],
+							"mZorder" : 1,
+							"posX" : 0,
+							"posY" : 0
+						},
+						"collisionGroupName" : "floor",
+						"isGhost" : false
+					}
+				}
+			]
+		},
+		{
+			"ID" : 78505952,
+			"Mode" : 0,
+			"Name" : "P2-1",
+			"components" : 
+			[
+				{
+					"ID" : 75289392,
+					"Type" : "class Transform2D",
+					"data" : 
+					{
+						"mAngle" : 0,
+						"mIsChild" : false,
+						"mPosition" : [ -2682.089111328125, 474.83819580078125, null, null ],
+						"mScale" : [ 180, 773, null, null ],
+						"mZorder" : -1,
+						"posX" : 0,
+						"posY" : 0
+					}
+				},
+				{
+					"ID" : 66741376,
+					"Type" : "class Graphics::Renderable",
+					"data" : 
+					{
+						"mIsVisible" : true,
+						"mLayer" : 2,
+						"mTextureName" : "pared1.png",
+						"originalColor" : [ 1, 1, 1, 1 ]
+					}
+				},
+				{
+					"ID" : 75975856,
+					"Type" : "class Graphics::LineRenderer",
+					"data" : null
+				},
+				{
+					"ID" : 78122528,
+					"Type" : "struct RigidBody",
+					"data" : 
+					{
+						"isBouncy" : false,
+						"isStatic" : true,
+						"mAcceleration" : [ 0, 0, null, null ],
+						"mAffectedByGravity" : true,
+						"mDrag" : 0.99000000953674316,
+						"mGravity" : [ 0, -500, null, null ],
+						"mInvMass" : 0,
+						"mPrevPosition" : [ 0, 0, null, null ],
+						"mRestitution" : 0,
+						"mVelocity" : [ 0, 0, null, null ]
+					}
+				},
+				{
+					"ID" : 54734976,
+					"Type" : "class Collider",
+					"data" : 
+					{
+						"colliderTransform" : 
+						{
+							"mAngle" : 0,
+							"mIsChild" : false,
+							"mPosition" : [ 30, -30, null, null ],
+							"mScale" : [ 1, 1, null, null ],
+							"mZorder" : 1,
+							"posX" : 0,
+							"posY" : 0
+						},
+						"collisionGroupName" : "floor",
+						"isGhost" : false
+					}
+				}
+			]
+		},
+		{
+			"ID" : 78505952,
+			"Mode" : 0,
+			"Name" : "P1-3",
+			"components" : 
+			[
+				{
+					"ID" : 75289392,
+					"Type" : "class Transform2D",
+					"data" : 
+					{
+						"mAngle" : 0,
+						"mIsChild" : false,
+						"mPosition" : [ -3644.453857421875, 691.13421630859375, null, null ],
+						"mScale" : [ 180, -85, null, null ],
+						"mZorder" : -1,
+						"posX" : 0,
+						"posY" : 0
+					}
+				},
+				{
+					"ID" : 66741376,
+					"Type" : "class Graphics::Renderable",
+					"data" : 
+					{
+						"mIsVisible" : true,
+						"mLayer" : 2,
+						"mTextureName" : "ParedQuesito 2.png",
+						"originalColor" : [ 1, 1, 1, 1 ]
+					}
+				}
+			]
+		},
+		{
+			"ID" : 78563152,
+			"Mode" : 0,
+			"Name" : "S1-4",
+			"components" : 
+			[
+				{
+					"ID" : 74507696,
+					"Type" : "class Transform2D",
+					"data" : 
+					{
+						"mAngle" : 0,
+						"mIsChild" : false,
+						"mPosition" : [ -2951.5419921875, 78.327384948730469, null, null ],
+						"mScale" : [ 367, 128, null, null ],
+						"mZorder" : 1,
+						"posX" : 0,
+						"posY" : 0
+					}
+				},
+				{
+					"ID" : 65956288,
+					"Type" : "class Graphics::Renderable",
+					"data" : 
+					{
+						"mIsVisible" : true,
+						"mLayer" : 2,
+						"mTextureName" : "Suelo3.png",
+						"originalColor" : [ 1, 1, 1, 1 ]
+					}
+				}
+			]
+		},
+		{
+			"ID" : 1984505044912,
+			"Mode" : 0,
+			"Name" : "P1-4",
+			"components" : 
+			[
+				{
+					"ID" : 1982906146784,
+					"Type" : "class Transform2D",
+					"data" : 
+					{
+						"mAngle" : 0,
+						"mIsChild" : false,
+						"mPosition" : [ -3644.272705078125, 2781.50439453125, null, null ],
+						"mScale" : [ 180, 85, null, null ],
+						"mZorder" : 1,
+						"posX" : 0,
+						"posY" : 0
+					}
+				},
+				{
+					"ID" : 1982979656512,
+					"Type" : "class Graphics::Renderable",
+					"data" : 
+					{
+						"mIsVisible" : true,
+						"mLayer" : 2,
+						"mTextureName" : "ParedQuesito 2.png",
+						"originalColor" : [ 1, 1, 1, 1 ]
+					}
+				}
+			]
+		},
+		{
+			"ID" : 1984505042416,
+			"Mode" : 0,
+			"Name" : "Techo1-1",
+			"components" : 
+			[
+				{
+					"ID" : 1982906148320,
+					"Type" : "class Transform2D",
+					"data" : 
+					{
+						"mAngle" : 0,
+						"mIsChild" : false,
+						"mPosition" : [ -3778.61572265625, 2864.50341796875, null, null ],
+						"mScale" : [ 66, 201, null, null ],
+						"mZorder" : -2,
+						"posX" : 0,
+						"posY" : 0
+					}
+				},
+				{
+					"ID" : 1982979652288,
+					"Type" : "class Graphics::Renderable",
+					"data" : 
+					{
+						"mIsVisible" : true,
+						"mLayer" : 2,
+						"mTextureName" : "Techo izq.png",
+						"originalColor" : [ 1, 1, 1, 1 ]
+					}
+				}
+			]
+		},
+		{
+			"ID" : 1984505042416,
+			"Mode" : 0,
+			"Name" : "Techo1-2",
+			"components" : 
+			[
+				{
+					"ID" : 1982906148320,
+					"Type" : "class Transform2D",
+					"data" : 
+					{
+						"mAngle" : 0,
+						"mIsChild" : false,
+						"mPosition" : [ -3379.507568359375, 2860.672607421875, null, null ],
+						"mScale" : [ 765, 212, null, null ],
+						"mZorder" : -2,
+						"posX" : 0,
+						"posY" : 0
+					}
+				},
+				{
+					"ID" : 1982979652288,
+					"Type" : "class Graphics::Renderable",
+					"data" : 
+					{
+						"mIsVisible" : true,
+						"mLayer" : 2,
+						"mTextureName" : "Techo1.png",
+						"originalColor" : [ 1, 1, 1, 1 ]
+					}
+				},
+				{
+					"ID" : 1584592343056,
+					"Type" : "class Graphics::LineRenderer",
+					"data" : null
+				},
+				{
+					"ID" : 1583844539824,
+					"Type" : "struct RigidBody",
+					"data" : 
+					{
+						"isBouncy" : false,
+						"isStatic" : true,
+						"mAcceleration" : [ 0, 0, null, null ],
+						"mAffectedByGravity" : true,
+						"mDrag" : 0.99000000953674316,
+						"mGravity" : [ 0, -500, null, null ],
+						"mInvMass" : 0,
+						"mPrevPosition" : [ 0, 0, null, null ],
+						"mRestitution" : 0,
+						"mVelocity" : [ 0, 0, null, null ]
+					}
+				},
+				{
+					"ID" : 1584632688960,
+					"Type" : "class Collider",
+					"data" : 
+					{
+						"colliderTransform" : 
+						{
+							"mAngle" : 0,
+							"mIsChild" : false,
+							"mPosition" : [ 3, 35, null, null ],
+							"mScale" : [ 1.1000000238418579, 1, null, null ],
+							"mZorder" : 1,
+							"posX" : 0,
+							"posY" : 0
+						},
+						"collisionGroupName" : "floor",
+						"isGhost" : false
+					}
+				}
+			]
+		},
+		{
+			"ID" : 1984505042416,
+			"Mode" : 0,
+			"Name" : "Techo1-3",
+			"components" : 
+			[
+				{
+					"ID" : 1982906148320,
+					"Type" : "class Transform2D",
+					"data" : 
+					{
+						"mAngle" : 0,
+						"mIsChild" : false,
+						"mPosition" : [ -2974.47607421875, 2860.017578125, null, null ],
+						"mScale" : [ 78, 208, null, null ],
+						"mZorder" : -2,
+						"posX" : 0,
+						"posY" : 0
+					}
+				},
+				{
+					"ID" : 1982979652288,
+					"Type" : "class Graphics::Renderable",
+					"data" : 
+					{
+						"mIsVisible" : true,
+						"mLayer" : 2,
+						"mTextureName" : "Techo drcha.png",
+						"originalColor" : [ 1, 1, 1, 1 ]
+					}
+				}
+			]
+		},
+		{
+			"ID" : 1984505042416,
+			"Mode" : 0,
+			"Name" : "Techo2-1",
+			"components" : 
+			[
+				{
+					"ID" : 1982906148320,
+					"Type" : "class Transform2D",
+					"data" : 
+					{
+						"mAngle" : 0,
+						"mIsChild" : false,
+						"mPosition" : [ -2655.94482421875, 1754.9617919921875, null, null ],
+						"mScale" : [ 66, 201, null, null ],
+						"mZorder" : -2,
+						"posX" : 0,
+						"posY" : 0
+					}
+				},
+				{
+					"ID" : 1982979652288,
+					"Type" : "class Graphics::Renderable",
+					"data" : 
+					{
+						"mIsVisible" : true,
+						"mLayer" : 2,
+						"mTextureName" : "Techo izq.png",
+						"originalColor" : [ 1, 1, 1, 1 ]
+					}
+				}
+			]
+		},
+		{
+			"ID" : 1984505042416,
+			"Mode" : 0,
+			"Name" : "Techo2-2",
+			"components" : 
+			[
+				{
+					"ID" : 1982906148320,
+					"Type" : "class Transform2D",
+					"data" : 
+					{
+						"mAngle" : 0,
+						"mIsChild" : false,
+						"mPosition" : [ -2250.49755859375, 1752.816650390625, null, null ],
+						"mScale" : [ 776, 206, null, null ],
+						"mZorder" : -2,
+						"posX" : 0,
+						"posY" : 0
+					}
+				},
+				{
+					"ID" : 1982979652288,
+					"Type" : "class Graphics::Renderable",
+					"data" : 
+					{
+						"mIsVisible" : true,
+						"mLayer" : 2,
+						"mTextureName" : "Techo2.png",
+						"originalColor" : [ 1, 1, 1, 1 ]
+					}
+				},
+				{
+					"ID" : 1584592338064,
+					"Type" : "class Graphics::LineRenderer",
+					"data" : null
+				},
+				{
+					"ID" : 1584594034000,
+					"Type" : "struct RigidBody",
+					"data" : 
+					{
+						"isBouncy" : false,
+						"isStatic" : true,
+						"mAcceleration" : [ 0, 0, null, null ],
+						"mAffectedByGravity" : true,
+						"mDrag" : 0.99000000953674316,
+						"mGravity" : [ 0, -500, null, null ],
+						"mInvMass" : 0,
+						"mPrevPosition" : [ 0, 0, null, null ],
+						"mRestitution" : 0,
+						"mVelocity" : [ 0, 0, null, null ]
+					}
+				},
+				{
+					"ID" : 1583846961904,
+					"Type" : "class Collider",
+					"data" : 
+					{
+						"colliderTransform" : 
+						{
+							"mAngle" : 0,
+							"mIsChild" : false,
+							"mPosition" : [ 750, 35, null, null ],
+							"mScale" : [ 3, 1, null, null ],
+							"mZorder" : 1,
+							"posX" : 0,
+							"posY" : 0
+						},
+						"collisionGroupName" : "floor",
+						"isGhost" : false
+					}
+				}
+			]
+		},
+		{
+			"ID" : 1984505042416,
+			"Mode" : 0,
+			"Name" : "Techo2-3",
+			"components" : 
+			[
+				{
+					"ID" : 1982906148320,
+					"Type" : "class Transform2D",
+					"data" : 
+					{
+						"mAngle" : 0,
+						"mIsChild" : false,
+						"mPosition" : [ -1502.8555908203125, 1752.7237548828125, null, null ],
+						"mScale" : [ 776, 206, null, null ],
+						"mZorder" : -2,
+						"posX" : 0,
+						"posY" : 0
+					}
+				},
+				{
+					"ID" : 1982979652288,
+					"Type" : "class Graphics::Renderable",
+					"data" : 
+					{
+						"mIsVisible" : true,
+						"mLayer" : 2,
+						"mTextureName" : "Techo2.png",
+						"originalColor" : [ 1, 1, 1, 1 ]
+					}
+				}
+			]
+		},
+		{
+			"ID" : 1984505042416,
+			"Mode" : 0,
+			"Name" : "Techo2-5",
+			"components" : 
+			[
+				{
+					"ID" : 1982906148320,
+					"Type" : "class Transform2D",
+					"data" : 
+					{
+						"mAngle" : 0,
+						"mIsChild" : false,
+						"mPosition" : [ -356.0469970703125, 1751.9678955078125, null, null ],
+						"mScale" : [ 78, 208, null, null ],
+						"mZorder" : -2,
+						"posX" : 0,
+						"posY" : 0
+					}
+				},
+				{
+					"ID" : 1982979652288,
+					"Type" : "class Graphics::Renderable",
+					"data" : 
+					{
+						"mIsVisible" : true,
+						"mLayer" : 2,
+						"mTextureName" : "Techo drcha.png",
+						"originalColor" : [ 1, 1, 1, 1 ]
+					}
+				}
+			]
+		},
+		{
+			"ID" : 1984505048240,
+			"Mode" : 0,
+			"Name" : "Pared 3-1",
+			"components" : 
+			[
+				{
+					"ID" : 1982906158816,
+					"Type" : "class Transform2D",
+					"data" : 
+					{
+						"mAngle" : 0,
+						"mIsChild" : false,
+						"mPosition" : [ -482.93658447265625, 1674.4002685546875, null, null ],
+						"mScale" : [ -180, 85, null, null ],
+						"mZorder" : 1,
+						"posX" : 0,
+						"posY" : 0
+					}
+				},
+				{
+					"ID" : 1982979652096,
+					"Type" : "class Graphics::Renderable",
+					"data" : 
+					{
+						"mIsVisible" : true,
+						"mLayer" : 2,
+						"mTextureName" : "ParedQuesito 2.png",
+						"originalColor" : [ 1, 1, 1, 1 ]
+					}
+				}
+			]
+		},
+		{
+			"ID" : 78563152,
+			"Mode" : 0,
+			"Name" : "S2-4",
+			"components" : 
+			[
+				{
+					"ID" : 74507696,
+					"Type" : "class Transform2D",
+					"data" : 
+					{
+						"mAngle" : 0,
+						"mIsChild" : false,
+						"mPosition" : [ -1488.832763671875, 906.18914794921875, null, null ],
+						"mScale" : [ 367, 128, null, null ],
+						"mZorder" : 1,
+						"posX" : 0,
+						"posY" : 0
+					}
+				},
+				{
+					"ID" : 65956288,
+					"Type" : "class Graphics::Renderable",
+					"data" : 
+					{
+						"mIsVisible" : true,
+						"mLayer" : 2,
+						"mTextureName" : "Suelo3.png",
+						"originalColor" : [ 1, 1, 1, 1 ]
+					}
+				}
+			]
+		},
+		{
+			"ID" : 1984505042416,
+			"Mode" : 0,
+			"Name" : "Techo2-4",
+			"components" : 
+			[
+				{
+					"ID" : 1982906148320,
+					"Type" : "class Transform2D",
+					"data" : 
+					{
+						"mAngle" : 0,
+						"mIsChild" : false,
+						"mPosition" : [ -755.4764404296875, 1752.8392333984375, null, null ],
+						"mScale" : [ 776, 206, null, null ],
+						"mZorder" : -2,
+						"posX" : 0,
+						"posY" : 0
+					}
+				},
+				{
+					"ID" : 1982979652288,
+					"Type" : "class Graphics::Renderable",
+					"data" : 
+					{
+						"mIsVisible" : true,
+						"mLayer" : 2,
+						"mTextureName" : "Techo2.png",
+						"originalColor" : [ 1, 1, 1, 1 ]
+					}
+				}
+			]
+		},
+		{
+			"ID" : 1984505048240,
+			"Mode" : 0,
+			"Name" : "Pared 3-2",
+			"components" : 
+			[
+				{
+					"ID" : 1982906158816,
+					"Type" : "class Transform2D",
+					"data" : 
+					{
+						"mAngle" : 0,
+						"mIsChild" : false,
+						"mPosition" : [ -482.987548828125, 1255.244873046875, null, null ],
+						"mScale" : [ 180, 773, null, null ],
+						"mZorder" : 1,
+						"posX" : 0,
+						"posY" : 0
+					}
+				},
+				{
+					"ID" : 1982979652096,
+					"Type" : "class Graphics::Renderable",
+					"data" : 
+					{
+						"mIsVisible" : true,
+						"mLayer" : 2,
+						"mTextureName" : "pared1.png",
+						"originalColor" : [ 1, 1, 1, 1 ]
+					}
+				}
+			]
+		},
+		{
+			"ID" : 1984505048240,
+			"Mode" : 0,
+			"Name" : "Pared 3-2",
+			"components" : 
+			[
+				{
+					"ID" : 1982906158816,
+					"Type" : "class Transform2D",
+					"data" : 
+					{
+						"mAngle" : 0,
+						"mIsChild" : false,
+						"mPosition" : [ -482.987548828125, 1255.244873046875, null, null ],
+						"mScale" : [ 180, 773, null, null ],
+						"mZorder" : 1,
+						"posX" : 0,
+						"posY" : 0
+					}
+				},
+				{
+					"ID" : 1982979652096,
+					"Type" : "class Graphics::Renderable",
+					"data" : 
+					{
+						"mIsVisible" : true,
+						"mLayer" : 2,
+						"mTextureName" : "pared1.png",
+						"originalColor" : [ 1, 1, 1, 1 ]
+					}
+				}
+			]
+		},
+		{
+			"ID" : 1984505048240,
+			"Mode" : 0,
+			"Name" : "Pared 3-3",
+			"components" : 
+			[
+				{
+					"ID" : 1982906158816,
+					"Type" : "class Transform2D",
+					"data" : 
+					{
+						"mAngle" : 0,
+						"mIsChild" : false,
+						"mPosition" : [ -482.848388671875, 855.4580078125, null, null ],
+						"mScale" : [ -178, 117, null, null ],
+						"mZorder" : 1,
+						"posX" : 0,
+						"posY" : 0
+					}
+				},
+				{
+					"ID" : 1982979652096,
+					"Type" : "class Graphics::Renderable",
+					"data" : 
+					{
+						"mIsVisible" : true,
+						"mLayer" : 2,
+						"mTextureName" : "ParedQuesito 1.png",
+						"originalColor" : [ 1, 1, 1, 1 ]
+					}
+				},
+				{
+					"ID" : 1584592340976,
+					"Type" : "class Graphics::LineRenderer",
+					"data" : null
+				},
+				{
+					"ID" : 1584480660400,
+					"Type" : "struct RigidBody",
+					"data" : 
+					{
+						"isBouncy" : false,
+						"isStatic" : true,
+						"mAcceleration" : [ 0, 0, null, null ],
+						"mAffectedByGravity" : true,
+						"mDrag" : 0.99000000953674316,
+						"mGravity" : [ 0, -500, null, null ],
+						"mInvMass" : 0,
+						"mPrevPosition" : [ 0, 0, null, null ],
+						"mRestitution" : 0,
+						"mVelocity" : [ 0, 0, null, null ]
+					}
+				},
+				{
+					"ID" : 1583846960384,
+					"Type" : "class Collider",
+					"data" : 
+					{
+						"colliderTransform" : 
+						{
+							"mAngle" : 0,
+							"mIsChild" : false,
+							"mPosition" : [ 30, 400, null, null ],
+							"mScale" : [ 1, 7, null, null ],
+							"mZorder" : 1,
+							"posX" : 0,
+							"posY" : 0
+						},
+						"collisionGroupName" : "floor",
+						"isGhost" : false
+					}
+				}
+			]
+		},
+		{
+			"ID" : 78563152,
+			"Mode" : 0,
+			"Name" : "S2-4",
+			"components" : 
+			[
+				{
+					"ID" : 74507696,
+					"Type" : "class Transform2D",
+					"data" : 
+					{
+						"mAngle" : 0,
+						"mIsChild" : false,
+						"mPosition" : [ -2377.97705078125, 907.96746826171875, null, null ],
+						"mScale" : [ 730, 110, null, null ],
+						"mZorder" : 1,
+						"posX" : 0,
+						"posY" : 0
+					}
+				},
+				{
+					"ID" : 65956288,
+					"Type" : "class Graphics::Renderable",
+					"data" : 
+					{
+						"mIsVisible" : true,
+						"mLayer" : 2,
+						"mTextureName" : "Suelo_02.png",
+						"originalColor" : [ 1, 1, 1, 1 ]
+					}
+				}
+			]
+		},
+		{
+			"ID" : 78563152,
+			"Mode" : 0,
+			"Name" : "S2-2",
+			"components" : 
+			[
+				{
+					"ID" : 74507696,
+					"Type" : "class Transform2D",
+					"data" : 
+					{
+						"mAngle" : 0,
+						"mIsChild" : false,
+						"mPosition" : [ -1841.86474609375, 905.91290283203125, null, null ],
+						"mScale" : [ 367, 128, null, null ],
+						"mZorder" : 1,
+						"posX" : 0,
+						"posY" : 0
+					}
+				},
+				{
+					"ID" : 65956288,
+					"Type" : "class Graphics::Renderable",
+					"data" : 
+					{
+						"mIsVisible" : true,
+						"mLayer" : 2,
+						"mTextureName" : "Suelo3.png",
+						"originalColor" : [ 1, 1, 1, 1 ]
+					}
+				}
+			]
+		},
+		{
+			"ID" : 78505952,
+			"Mode" : 0,
+			"Name" : "P1-5",
+			"components" : 
+			[
+				{
+					"ID" : 75289392,
+					"Type" : "class Transform2D",
+					"data" : 
+					{
+						"mAngle" : 0,
+						"mIsChild" : false,
+						"mPosition" : [ -3643.796630859375, 2365.522705078125, null, null ],
+						"mScale" : [ -180, 775, null, null ],
+						"mZorder" : 1,
+						"posX" : 0,
+						"posY" : 0
+					}
+				},
+				{
+					"ID" : 66741376,
+					"Type" : "class Graphics::Renderable",
+					"data" : 
+					{
+						"mIsVisible" : true,
+						"mLayer" : 2,
+						"mTextureName" : "pared2.png",
+						"originalColor" : [ 1, 1, 1, 1 ]
+					}
+				}
+			]
+		},
+		{
+			"ID" : 1584592338688,
+			"Mode" : 0,
+			"Name" : "P2-2",
+			"components" : 
+			[
+				{
+					"ID" : 1584523939840,
+					"Type" : "class Transform2D",
+					"data" : 
+					{
+						"mAngle" : 0,
+						"mIsChild" : false,
+						"mPosition" : [ -2680.5634765625, 103.98712158203125, null, null ],
+						"mScale" : [ -178, 117, null, null ],
+						"mZorder" : -1,
+						"posX" : 0,
+						"posY" : 0
+					}
+				},
+				{
+					"ID" : 1583846275296,
+					"Type" : "class Graphics::Renderable",
+					"data" : 
+					{
+						"mIsVisible" : true,
+						"mLayer" : 2,
+						"mTextureName" : "ParedQuesito 1.png",
+						"originalColor" : [ 1, 1, 1, 1 ]
+					}
+				}
+			]
+		},
+		{
+			"ID" : 78563152,
+			"Mode" : 0,
+			"Name" : "S3-3",
+			"components" : 
+			[
+				{
+					"ID" : 74507696,
+					"Type" : "class Transform2D",
+					"data" : 
+					{
+						"mAngle" : 0,
+						"mIsChild" : false,
+						"mPosition" : [ -753.1998291015625, 79.62078857421875, null, null ],
+						"mScale" : [ 730, 110, null, null ],
+						"mZorder" : -2,
+						"posX" : 0,
+						"posY" : 0
+					}
+				},
+				{
+					"ID" : 65956288,
+					"Type" : "class Graphics::Renderable",
+					"data" : 
+					{
+						"mIsVisible" : true,
+						"mLayer" : 2,
+						"mTextureName" : "Suelo_02.png",
+						"originalColor" : [ 1, 1, 1, 1 ]
+					}
+				}
+			]
+		},
+		{
+			"ID" : 1584592337856,
+			"Mode" : 0,
+			"Name" : "P4-1",
+			"components" : 
+			[
+				{
+					"ID" : 1584523936768,
+					"Type" : "class Transform2D",
+					"data" : 
+					{
+						"mAngle" : 0,
+						"mIsChild" : false,
+						"mPosition" : [ -2020.087158203125, 2203.5224609375, null, null ],
+						"mScale" : [ 180, 773, null, null ],
+						"mZorder" : -3,
+						"posX" : 0,
+						"posY" : 0
+					}
+				},
+				{
+					"ID" : 1583846273760,
+					"Type" : "class Graphics::Renderable",
+					"data" : 
+					{
+						"mIsVisible" : true,
+						"mLayer" : 2,
+						"mTextureName" : "pared1.png",
+						"originalColor" : [ 1, 1, 1, 1 ]
+					}
+				},
+				{
+					"ID" : 1584592340144,
+					"Type" : "class Graphics::LineRenderer",
+					"data" : null
+				},
+				{
+					"ID" : 1583844543712,
+					"Type" : "struct RigidBody",
+					"data" : 
+					{
+						"isBouncy" : false,
+						"isStatic" : true,
+						"mAcceleration" : [ 0, 0, null, null ],
+						"mAffectedByGravity" : true,
+						"mDrag" : 0.99000000953674316,
+						"mGravity" : [ 0, -500, null, null ],
+						"mInvMass" : 0,
+						"mPrevPosition" : [ 0, 0, null, null ],
+						"mRestitution" : 0,
+						"mVelocity" : [ 0, 0, null, null ]
+					}
+				},
+				{
+					"ID" : 1584632695648,
+					"Type" : "class Collider",
+					"data" : 
+					{
+						"colliderTransform" : 
+						{
+							"mAngle" : 0,
+							"mIsChild" : false,
+							"mPosition" : [ 30, 250, null, null ],
+							"mScale" : [ 1, 2, null, null ],
+							"mZorder" : 1,
+							"posX" : 0,
+							"posY" : 0
+						},
+						"collisionGroupName" : "floor",
+						"isGhost" : false
+					}
+				}
+			]
+		},
+		{
+			"ID" : 1584592337856,
+			"Mode" : 0,
+			"Name" : "P4-2",
+			"components" : 
+			[
+				{
+					"ID" : 1584523936768,
+					"Type" : "class Transform2D",
+					"data" : 
+					{
+						"mAngle" : 0,
+						"mIsChild" : false,
+						"mPosition" : [ -2020.087158203125, 2947.469482421875, null, null ],
+						"mScale" : [ 180, 773, null, null ],
+						"mZorder" : -3,
+						"posX" : 0,
+						"posY" : 0
+					}
+				},
+				{
+					"ID" : 1583846273760,
+					"Type" : "class Graphics::Renderable",
+					"data" : 
+					{
+						"mIsVisible" : true,
+						"mLayer" : 2,
+						"mTextureName" : "pared1.png",
+						"originalColor" : [ 1, 1, 1, 1 ]
+					}
+				}
+			]
+		},
+		{
+			"ID" : 1584592335152,
+			"Mode" : 0,
+			"Name" : "NewObject",
+			"components" : 
+			[
+				{
+					"ID" : 1584523945984,
+					"Type" : "class Transform2D",
+					"data" : 
+					{
+						"mAngle" : 0,
+						"mIsChild" : false,
+						"mPosition" : [ 0, 200, null, null ],
+						"mScale" : [ 50, 50, null, null ],
+						"mZorder" : 1,
+						"posX" : 0,
+						"posY" : 0
+					}
+				}
+			]
+		}
+	]
+}

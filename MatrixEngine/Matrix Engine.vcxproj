@@ -1,0 +1,392 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{C83558C2-3EF0-481C-A9B7-5B081549524E}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>MatrixEngine</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <CLRSupport>false</CLRSupport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)bin\</OutDir>
+    <IntDir>$(SolutionDir)obj\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)bin\</OutDir>
+    <IntDir>$(SolutionDir)obj\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)bin\</OutDir>
+    <IntDir>$(SolutionDir)obj\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)bin\</OutDir>
+    <IntDir>$(SolutionDir)obj\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)src;$(ProjectDir)Extern\GLM;$(ProjectDir)Extern\GL;$(ProjectDir)Extern\fmod;$(ProjectDir)src\Engine;$(ProjectDir)src\Game;$(ProjectDir)Extern\imgui;$(ProjectDir)Extern;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <AdditionalDependencies>OpenGL32.lib;glew32s.lib;fmod_vc.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;xinput9_1_0.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(ProjectDir)extern\fmod;$(ProjectDir)extern\GLM;$(ProjectDir)extern\GL;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <DelayLoadDLLs>
+      </DelayLoadDLLs>
+      <AdditionalOptions>/ignore:4049 %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)src;$(ProjectDir)Extern\GLM;$(ProjectDir)Extern\GL;$(ProjectDir)Extern\fmod;$(ProjectDir)src\Engine;$(ProjectDir)src\Game;$(ProjectDir)Extern\imgui;$(ProjectDir)Extern;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4996;4005;4800;4473;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <AdditionalLibraryDirectories>$(ProjectDir)extern\fmod;$(ProjectDir)extern\GLM;$(ProjectDir)extern\GL;$(ProjectDir)extern\imgui;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>fmod64_vc.lib;glew32s.lib;OpenGL32.lib;xinput9_1_0.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions>/ignore:4049 %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy "$(ProjectDir)Extern\fmod\fmod64.dll" "$(SolutionDir)bin"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>
+      </PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)Extern\fmod;$(ProjectDir)Extern\GL;%(AdditionalIncludeDirectories);$(ProjectDir)src;$(ProjectDir)src\Engine;$(ProjectDir)src\Game;$(ProjectDir)Extern</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>OpenGL32.lib;glew32s.lib;xinput9_1_0.lib;fmod_vc.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(ProjectDir)extern\fmod;$(ProjectDir)extern\GL;$(ProjectDir)src;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <Profile>true</Profile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)src;$(ProjectDir)Extern\GLM;$(ProjectDir)Extern\GL;$(ProjectDir)Extern\fmod;$(ProjectDir)src\Engine;$(ProjectDir)src\Game;$(ProjectDir)Extern\imgui;$(ProjectDir)Extern;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4996;4005;4800;4473;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatWarningAsError>true</TreatWarningAsError>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <Profile>true</Profile>
+      <AdditionalLibraryDirectories>$(ProjectDir)extern\fmod;$(ProjectDir)extern\GLM;$(ProjectDir)extern\GL;$(ProjectDir)extern\imgui;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>fmod64_vc.lib;glew32s.lib;OpenGL32.lib;xinput9_1_0.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions> /ignore:4049  /ignore:4099  /ignore:4098  /ignore:4996  /ignore:4005  /ignore:4800 %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy "$(ProjectDir)Extern\fmod\fmod64.dll" "$(SolutionDir)bin"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Extern\imgui\imgui.cpp" />
+    <ClCompile Include="Extern\imgui\imgui_demo.cpp" />
+    <ClCompile Include="Extern\imgui\imgui_draw.cpp" />
+    <ClCompile Include="Extern\Json\json.cpp" />
+    <ClCompile Include="Extern\stb_image\stb_image.cpp" />
+    <ClCompile Include="src\Engine\Audio\Audio.cpp" />
+    <ClCompile Include="src\Engine\Audio\Level 1.cpp" />
+    <ClCompile Include="src\Engine\Base\IBase.cpp" />
+    <ClCompile Include="src\Engine\Core\RegisterAllComponent.cpp" />
+    <ClCompile Include="src\Engine\Editor\ImGuiFunc.cpp" />
+    <ClCompile Include="src\Engine\Editor\ImGuiUpdate.cpp" />
+    <ClCompile Include="src\Engine\EngineDebug\ConsolePrinting.cpp" />
+    <ClCompile Include="src\Engine\EngineDebug\MyDebug.cpp" />
+    <ClCompile Include="src\Engine\EngineDebug\OpenGL_error.cpp" />
+    <ClCompile Include="src\Engine\GameObject\Component.cpp" />
+    <ClCompile Include="src\Engine\GameObject\ComponentManager.cpp" />
+    <ClCompile Include="src\Engine\GameObject\GameObject.cpp" />
+    <ClCompile Include="src\Engine\GameObject\GameObjectManager.cpp" />
+    <ClCompile Include="src\Engine\Graphics\Camera.cpp" />
+    <ClCompile Include="src\Engine\Graphics\FontRenderingInfo.cpp" />
+    <ClCompile Include="src\Engine\Graphics\GraphicsComponents\AnimationComponent.cpp" />
+    <ClCompile Include="src\Engine\Graphics\GraphicsComponents\FontRenderable.cpp" />
+    <ClCompile Include="src\Engine\Graphics\GraphicsComponents\LineRenderer.cpp" />
+    <ClCompile Include="src\Engine\Graphics\GraphicsComponents\Renderable.cpp" />
+    <ClCompile Include="src\Engine\Graphics\GraphicsSystem.cpp" />
+    <ClCompile Include="src\Engine\Graphics\Mesh.cpp" />
+    <ClCompile Include="src\Engine\Graphics\Shader.cpp" />
+    <ClCompile Include="src\Engine\Graphics\SpriteAnimationData.cpp" />
+    <ClCompile Include="src\Engine\Graphics\SpriteLayer.cpp" />
+    <ClCompile Include="src\Engine\Graphics\Texture.cpp" />
+    <ClCompile Include="src\Engine\Graphics\Viewport.cpp" />
+    <ClCompile Include="src\Engine\Logic\Level.cpp" />
+    <ClCompile Include="src\Engine\Logic\StateMachine\AnimationStateMachine.cpp" />
+    <ClCompile Include="src\Engine\Platform\File\FilePath.cpp" />
+    <ClCompile Include="src\Engine\Platform\Input\Button.cpp" />
+    <ClCompile Include="src\Engine\Platform\Input\Input Events\MouseClickEvent.cpp" />
+    <ClCompile Include="src\Engine\Utils\CogPath.cpp" />
+    <ClCompile Include="src\Engine\Physics\LineSegment2D.cpp" />
+    <ClCompile Include="src\Engine\Physics\Raycast.cpp" />
+    <ClCompile Include="src\Engine\Utils\Interpolation.cpp" />
+    <ClCompile Include="src\Game\Components\CamouflageComponent.cpp" />
+    <ClCompile Include="src\Game\Components\Door.cpp" />
+    <ClCompile Include="src\Game\Components\FakeTongue.cpp" />
+    <ClCompile Include="src\Game\Components\FlyComponent.cpp" />
+    <ClCompile Include="src\Game\Components\Graphics\CameraZoom.cpp" />
+    <ClCompile Include="src\Game\Components\Graphics\ParallaxComponent.cpp" />
+    <ClCompile Include="src\Game\Components\Laser2.cpp" />
+    <ClCompile Include="src\Game\Components\Player.cpp" />
+    <ClCompile Include="src\Game\Components\Pipe.cpp" />
+    <ClCompile Include="src\Game\Components\Rabbit.cpp" />
+    <ClCompile Include="src\Game\Components\TestPatherino.cpp" />
+    <ClCompile Include="src\Game\Components\SteamComponent.cpp" />
+    <ClCompile Include="src\Game\Components\ActivObject.cpp" />
+    <ClCompile Include="src\Game\Components\CollectibleComponent.cpp" />
+    <ClCompile Include="src\Game\EnemiesStates\SheepStates.cpp" />
+    <ClCompile Include="src\Game\EnemiesStates\WolfStates.cpp" />
+    <ClCompile Include="src\Game\Levels\GenericLevel.cpp" />
+    <ClCompile Include="src\Game\Levels\LevelTest.cpp" />
+    <ClCompile Include="src\Game\Logic\StateMachines\PlayerStateMachine.cpp" />
+    <ClCompile Include="src\Engine\Logic\StateMachine\StateMachine.cpp" />
+    <ClCompile Include="src\Game\Logic\StateMachines\SlothStateMachine.cpp" />
+    <ClCompile Include="src\Game\Logic\StateMachines\ThrowTongueStateMachine.cpp" />
+    <ClCompile Include="src\Engine\Physics\Collider.cpp" />
+    <ClCompile Include="src\Engine\Physics\CollisionData.cpp" />
+    <ClCompile Include="src\Engine\Physics\CollisionEvents\OnCollisionEvent.cpp" />
+    <ClCompile Include="src\Engine\Physics\CollisionResolution.cpp" />
+    <ClCompile Include="src\Engine\Physics\Collisions.cpp" />
+    <ClCompile Include="src\Engine\Physics\CollisionSystem.cpp" />
+    <ClCompile Include="src\Engine\Physics\CollisionTable.cpp" />
+    <ClCompile Include="src\Engine\Physics\RigidBody.cpp" />
+    <ClCompile Include="src\Engine\Platform\Input\Input.cpp" />
+    <ClCompile Include="src\Engine\Platform\Input\xboxController.cpp" />
+    <ClCompile Include="src\Engine\Platform\MessageWindow\MessageWindow.cpp" />
+    <ClCompile Include="src\Engine\Platform\Resource Manager\ResourceManager.cpp" />
+    <ClCompile Include="src\Engine\Platform\Time\FrameRateController.cpp" />
+    <ClCompile Include="src\Engine\Transform\Transform2D.cpp" />
+    <ClCompile Include="src\Engine\Platform\EventSystem\event.cpp" />
+    <ClCompile Include="src\Engine\Platform\EventSystem\event_dispatcher.cpp" />
+    <ClCompile Include="src\Engine\Platform\EventSystem\type_info.cpp" />
+    <ClCompile Include="src\Engine\Window\Window.cpp" />
+    <ClCompile Include="src\Engine\Window\WindowManager.cpp" />
+    <ClCompile Include="src\Game\Components\ActivableComponent.cpp" />
+    <ClCompile Include="src\Game\Components\Checkpoint.cpp" />
+    <ClCompile Include="src\Game\Components\ClimbableObject.cpp" />
+    <ClCompile Include="src\Game\Components\DetectorComponent.cpp" />
+    <ClCompile Include="src\Game\Components\Enemy.cpp" />
+    <ClCompile Include="src\Game\Components\HeadComponent.cpp" />
+    <ClCompile Include="src\Game\Components\Laser.cpp" />
+    <ClCompile Include="src\Game\Components\MovingPlatform.cpp" />
+    <ClCompile Include="src\Game\Components\PropulsionObject.cpp" />
+    <ClCompile Include="src\Game\Components\Test.cpp" />
+    <ClCompile Include="src\Game\Components\Tongue.cpp" />
+    <ClCompile Include="src\Game\Components\ZClimbable.cpp" />
+    <ClCompile Include="src\Game\Events\OnPlayerDetected.cpp" />
+    <ClCompile Include="src\Game\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Extern\imgui\imconfig.h" />
+    <ClInclude Include="Extern\imgui\imgui.h" />
+    <ClInclude Include="Extern\imgui\imgui_internal.h" />
+    <ClInclude Include="Extern\imgui\stb_rect_pack.h" />
+    <ClInclude Include="Extern\imgui\stb_textedit.h" />
+    <ClInclude Include="Extern\imgui\stb_truetype.h" />
+    <ClInclude Include="Extern\Json\json-forwards.h" />
+    <ClInclude Include="Extern\Json\json.h" />
+    <ClInclude Include="src\Engine\Audio\Audio.h" />
+    <ClInclude Include="src\Engine\Audio\Level 1.h" />
+    <ClInclude Include="src\Engine\Base\IBase.h" />
+    <ClInclude Include="src\Engine\Core\DataTypes.h" />
+    <ClInclude Include="src\Engine\Core\RegisterAllComponent.h" />
+    <ClInclude Include="src\Engine\Core\System.h" />
+    <ClInclude Include="src\Engine\Editor\ImGuiFunc.h" />
+    <ClInclude Include="src\Engine\Editor\ImGuiUpdate.h" />
+    <ClInclude Include="src\Engine\EngineDebug\ConsolePrinting.h" />
+    <ClInclude Include="src\Engine\EngineDebug\MyDebug.h" />
+    <ClInclude Include="src\Engine\EngineDebug\OpenGL_error.h" />
+    <ClInclude Include="src\Engine\GameObject\Component.h" />
+    <ClInclude Include="src\Engine\GameObject\ComponentManager.h" />
+    <ClInclude Include="src\Engine\GameObject\GameObject.h" />
+    <ClInclude Include="src\Engine\GameObject\GameObjectManager.h" />
+    <ClInclude Include="src\Engine\Graphics\Camera.h" />
+    <ClInclude Include="src\Engine\Graphics\FontRenderingInfo.h" />
+    <ClInclude Include="src\Engine\Graphics\GraphicsComponents\AnimationComponent.h" />
+    <ClInclude Include="src\Engine\Graphics\GraphicsComponents\FontRenderable.h" />
+    <ClInclude Include="src\Engine\Graphics\GraphicsComponents\LineRenderer.h" />
+    <ClInclude Include="src\Engine\Graphics\GraphicsComponents\Renderable.h" />
+    <ClInclude Include="src\Engine\Graphics\GraphicsSystem.h" />
+    <ClInclude Include="src\Engine\Graphics\Mesh.h" />
+    <ClInclude Include="src\Engine\Graphics\Shader.h" />
+    <ClInclude Include="src\Engine\Graphics\SpriteAnimationData.h" />
+    <ClInclude Include="src\Engine\Graphics\SpriteLayer.h" />
+    <ClInclude Include="src\Engine\Graphics\System\PSystem.h" />
+    <ClInclude Include="src\Engine\Graphics\Texture.h" />
+    <ClInclude Include="src\Engine\Graphics\Viewport.h" />
+    <ClInclude Include="src\Engine\Logic\Level.h" />
+    <ClInclude Include="src\Engine\Logic\StateMachine\AnimationStateMachine.h" />
+    <ClInclude Include="src\Engine\Platform\File\FilePath.h" />
+    <ClInclude Include="src\Engine\Platform\Input\Button.h" />
+    <ClInclude Include="src\Engine\Platform\Input\Input Events\MouseClickEvent.h" />
+    <ClInclude Include="src\Engine\Utils\CogPath.h" />
+    <ClInclude Include="src\Engine\Physics\LineSegment2D.h" />
+    <ClInclude Include="src\Engine\Physics\Raycast.h" />
+    <ClInclude Include="src\Engine\Utils\Interpolation.h" />
+    <ClInclude Include="src\Game\Components\CamouflageComponent.h" />
+    <ClInclude Include="src\Game\Components\Door.h" />
+    <ClInclude Include="src\Game\Components\FakeTongue.h" />
+    <ClInclude Include="src\Game\Components\FlyComponent.h" />
+    <ClInclude Include="src\Game\Components\Graphics\CameraZoom.h" />
+    <ClInclude Include="src\Game\Components\Graphics\ParallaxComponent.h" />
+    <ClInclude Include="src\Game\Components\Laser2.h" />
+    <ClInclude Include="src\Game\Components\Pipe.h" />
+    <ClInclude Include="src\Game\Components\Player.h" />
+    <ClInclude Include="src\Game\Components\Rabbit.h" />
+    <ClInclude Include="src\Game\Components\TestPatherino.h" />
+    <ClInclude Include="src\Game\Components\SteamComponent.h" />
+    <ClInclude Include="src\Game\Components\ActivObject.h" />
+    <ClInclude Include="src\Game\Components\CollectibleComponent.h" />
+    <ClInclude Include="src\Game\EnemiesStates\SheepStates.h" />
+    <ClInclude Include="src\Game\EnemiesStates\WolfStates.h" />
+    <ClInclude Include="src\Game\Levels\GenericLevel.h" />
+    <ClInclude Include="src\Game\Levels\LevelTest.h" />
+    <ClInclude Include="src\Game\Levels\LevelTestSM.h" />
+    <ClInclude Include="src\Game\Levels\MenuLevel.h" />
+    <ClInclude Include="src\Game\Logic\StateMachines\PlayerStateMachine.h" />
+    <ClInclude Include="src\Engine\Logic\StateMachine\StateMachine.h" />
+    <ClInclude Include="src\Game\Logic\StateMachines\SlothStateMachine.h" />
+    <ClInclude Include="src\Game\Logic\StateMachines\ThrowTongueStateMachine.h" />
+    <ClInclude Include="src\Engine\Physics\Collider.h" />
+    <ClInclude Include="src\Engine\Physics\CollisionData.h" />
+    <ClInclude Include="src\Engine\Physics\CollisionEvents\OnCollisionEvent.h" />
+    <ClInclude Include="src\Engine\Physics\CollisionResolution.h" />
+    <ClInclude Include="src\Engine\Physics\Collisions.h" />
+    <ClInclude Include="src\Engine\Physics\CollisionSystem.h" />
+    <ClInclude Include="src\Engine\Physics\CollisionTable.h" />
+    <ClInclude Include="src\Engine\Physics\RigidBody.h" />
+    <ClInclude Include="src\Engine\Platform\Input\Input.h" />
+    <ClInclude Include="src\Engine\Platform\Input\xboxController.h" />
+    <ClInclude Include="src\Engine\Platform\MessageWindow\MessageWindow.h" />
+    <ClInclude Include="src\Engine\Platform\Resource Manager\ResourceManager.h" />
+    <ClInclude Include="src\Engine\Platform\Time\FrameRateController.h" />
+    <ClInclude Include="src\Engine\Transform\Transform2D.h" />
+    <ClInclude Include="src\Engine\Platform\EventSystem\event.h" />
+    <ClInclude Include="src\Engine\Platform\EventSystem\event_dispatcher.h" />
+    <ClInclude Include="src\Engine\Platform\EventSystem\type_info.h" />
+    <ClInclude Include="src\Engine\Utils\ISingleton.h" />
+    <ClInclude Include="src\Engine\Utils\ReadWriteFile.h" />
+    <ClInclude Include="src\Engine\Utils\Serialization.h" />
+    <ClInclude Include="src\Engine\Utils\Thread.h" />
+    <ClInclude Include="src\Engine\Window\Window.h" />
+    <ClInclude Include="src\Engine\Window\WindowManager.h" />
+    <ClInclude Include="src\Game\Components\ActivableComponent.h" />
+    <ClInclude Include="src\Game\Components\Checkpoint.h" />
+    <ClInclude Include="src\Game\Components\ClimbableObject.h" />
+    <ClInclude Include="src\Game\Components\DetectorComponent.h" />
+    <ClInclude Include="src\Game\Components\Enemy.h" />
+    <ClInclude Include="src\Game\Components\EventTest.h" />
+    <ClInclude Include="src\Game\Components\HeadComponent.h" />
+    <ClInclude Include="src\Game\Components\Laser.h" />
+    <ClInclude Include="src\Game\Components\MovingPlatform.h" />
+    <ClInclude Include="src\Game\Components\PropulsionObject.h" />
+    <ClInclude Include="src\Game\Components\Test.h" />
+    <ClInclude Include="src\Game\Components\Tongue.h" />
+    <ClInclude Include="src\Game\Components\ZClimbable.h" />
+    <ClInclude Include="src\Game\EventHandlers\TestEventHandler.h" />
+    <ClInclude Include="src\Game\Events\OnPlayerDetected.h" />
+    <ClInclude Include="src\Game\Events\TestEvent.h" />
+    <ClInclude Include="src\MatrixEngine.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

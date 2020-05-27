@@ -1,0 +1,664 @@
+{
+	"objects" : 
+	[
+		{
+			"ID" : 62250688,
+			"Mode" : 0,
+			"Name" : "camera",
+			"components" : 
+			[
+				{
+					"ID" : 75334944,
+					"Type" : "class Transform2D",
+					"data" : 
+					{
+						"mAngle" : 0,
+						"mIsChild" : false,
+						"mPosition" : [ -1343.91015625, -737.5146484375, null, null ],
+						"mScale" : [ 50, 50, null, null ],
+						"mZorder" : 1,
+						"posX" : 0,
+						"posY" : 0
+					}
+				},
+				{
+					"ID" : 75335328,
+					"Type" : "class Graphics::Camera",
+					"data" : null
+				},
+				{
+					"ID" : 149517600,
+					"Type" : "class Graphics::Camera",
+					"data" : null
+				},
+				{
+					"ID" : 153427328,
+					"Type" : "class Graphics::Camera",
+					"data" : null
+				}
+			]
+		},
+		{
+			"ID" : 3940720,
+			"Mode" : 0,
+			"Name" : "camera",
+			"components" : 
+			[
+				{
+					"ID" : 173321216,
+					"Type" : "class Transform2D",
+					"data" : 
+					{
+						"mAngle" : 0,
+						"mIsChild" : false,
+						"mPosition" : [ 124.28173828125, -589.187744140625, null, null ],
+						"mScale" : [ 50, 50, null, null ],
+						"mZorder" : 1,
+						"posX" : 0,
+						"posY" : 0
+					}
+				},
+				{
+					"ID" : 173321408,
+					"Type" : "class Graphics::Camera",
+					"data" : null
+				}
+			]
+		},
+		{
+			"ID" : 166103248,
+			"Mode" : 0,
+			"Name" : "camera",
+			"components" : 
+			[
+				{
+					"ID" : 61649600,
+					"Type" : "class Transform2D",
+					"data" : 
+					{
+						"mAngle" : 0,
+						"mIsChild" : false,
+						"mPosition" : [ 86.07666015625, -329.116455078125, null, null ],
+						"mScale" : [ 50, 50, null, null ],
+						"mZorder" : 1,
+						"posX" : 0,
+						"posY" : 0
+					}
+				},
+				{
+					"ID" : 61649344,
+					"Type" : "class Graphics::Camera",
+					"data" : null
+				}
+			]
+		},
+		{
+			"ID" : 133801344,
+			"Mode" : 0,
+			"Name" : "camera",
+			"components" : 
+			[
+				{
+					"ID" : 67322448,
+					"Type" : "class Transform2D",
+					"data" : 
+					{
+						"mAngle" : 0,
+						"mIsChild" : false,
+						"mPosition" : [ -13.80908203125, -428.081787109375, null, null ],
+						"mScale" : [ 50, 50, null, null ],
+						"mZorder" : 1,
+						"posX" : 0,
+						"posY" : 0
+					}
+				},
+				{
+					"ID" : 67322192,
+					"Type" : "class Graphics::Camera",
+					"data" : null
+				}
+			]
+		},
+		{
+			"ID" : 274799840,
+			"Mode" : 0,
+			"Name" : "Floor",
+			"components" : 
+			[
+				{
+					"ID" : 67323792,
+					"Type" : "class Transform2D",
+					"data" : 
+					{
+						"mAngle" : 0,
+						"mIsChild" : false,
+						"mPosition" : [ -350.7275390625, -1474.01611328125, null, null ],
+						"mScale" : [ 5000, 100, null, null ],
+						"mZorder" : 1,
+						"posX" : 0,
+						"posY" : 0
+					}
+				},
+				{
+					"ID" : 3892544,
+					"Type" : "class Graphics::Renderable",
+					"data" : 
+					{
+						"mIsVisible" : true,
+						"mLayer" : 2,
+						"mTextureName" : "Default.png",
+						"originalColor" : [ 0.04901963472366333, 0.035563264042139053, 0.035563264042139053, 1 ]
+					}
+				},
+				{
+					"ID" : 249541904,
+					"Type" : "struct RigidBody",
+					"data" : 
+					{
+						"isBouncy" : false,
+						"isStatic" : true,
+						"mAcceleration" : [ 0, 0, null, null ],
+						"mAffectedByGravity" : false,
+						"mDrag" : 0.99000000953674316,
+						"mGravity" : [ 0, -500, null, null ],
+						"mInvMass" : 0,
+						"mPrevPosition" : [ 0, 0, null, null ],
+						"mRestitution" : 0,
+						"mVelocity" : [ 0, 0, null, null ]
+					}
+				},
+				{
+					"ID" : 274793888,
+					"Type" : "class Graphics::LineRenderer",
+					"data" : null
+				},
+				{
+					"ID" : 67265840,
+					"Type" : "class Collider",
+					"data" : 
+					{
+						"colliderTransform" : 
+						{
+							"mAngle" : 0,
+							"mIsChild" : false,
+							"mPosition" : [ 0, 0, null, null ],
+							"mScale" : [ 1, 1, null, null ],
+							"mZorder" : 1,
+							"posX" : 0,
+							"posY" : 0
+						},
+						"collisionGroupName" : "floor",
+						"isGhost" : false
+					}
+				}
+			]
+		},
+		{
+			"ID" : 131501440,
+			"Mode" : 0,
+			"Name" : "Pipe2",
+			"components" : 
+			[
+				{
+					"ID" : 131404592,
+					"Type" : "class Transform2D",
+					"data" : 
+					{
+						"mAngle" : 0,
+						"mIsChild" : false,
+						"mPosition" : [ -50.14599609375, -1264.78173828125, null, null ],
+						"mScale" : [ 200, 200, null, null ],
+						"mZorder" : 13,
+						"posX" : 0,
+						"posY" : 0
+					}
+				},
+				{
+					"ID" : 69328640,
+					"Type" : "class Graphics::Renderable",
+					"data" : 
+					{
+						"mIsVisible" : true,
+						"mLayer" : 2,
+						"mTextureName" : "Default.png",
+						"originalColor" : [ 0.49151486158370972, 0.77941179275512695, 0.080233551561832428, 1 ]
+					}
+				},
+				{
+					"ID" : 82918480,
+					"Type" : "class Pipe",
+					"data" : 
+					{
+						"exitCogPath" : 61841056,
+						"m_name" : "Pipe System"
+					}
+				},
+				{
+					"ID" : 78851152,
+					"Type" : "class Graphics::LineRenderer",
+					"data" : null
+				},
+				{
+					"ID" : 78793600,
+					"Type" : "struct RigidBody",
+					"data" : 
+					{
+						"isBouncy" : false,
+						"isStatic" : true,
+						"mAcceleration" : [ 0, 0, null, null ],
+						"mAffectedByGravity" : true,
+						"mDrag" : 0.99000000953674316,
+						"mGravity" : [ 0, -500, null, null ],
+						"mInvMass" : 0,
+						"mPrevPosition" : [ 0, 0, null, null ],
+						"mRestitution" : 0,
+						"mVelocity" : [ 0, 0, null, null ]
+					}
+				},
+				{
+					"ID" : 178214784,
+					"Type" : "class Collider",
+					"data" : 
+					{
+						"colliderTransform" : 
+						{
+							"mAngle" : 0,
+							"mIsChild" : false,
+							"mPosition" : [ 0, 0, null, null ],
+							"mScale" : [ 1, 1, null, null ],
+							"mZorder" : 1,
+							"posX" : 0,
+							"posY" : 0
+						},
+						"collisionGroupName" : "pipecollisiongroup",
+						"isGhost" : false
+					}
+				}
+			]
+		},
+		{
+			"ID" : 61841056,
+			"Mode" : 0,
+			"Name" : "Pipe1",
+			"components" : 
+			[
+				{
+					"ID" : 176875088,
+					"Type" : "class Transform2D",
+					"data" : 
+					{
+						"mAngle" : 3.1415927410125732,
+						"mIsChild" : false,
+						"mPosition" : [ -1268.21240234375, -1249.833251953125, null, null ],
+						"mScale" : [ 200, 200, null, null ],
+						"mZorder" : 13,
+						"posX" : 0,
+						"posY" : 0
+					}
+				},
+				{
+					"ID" : 68909120,
+					"Type" : "class Graphics::Renderable",
+					"data" : 
+					{
+						"mIsVisible" : true,
+						"mLayer" : 2,
+						"mTextureName" : "Default.png",
+						"originalColor" : [ 0.92156863212585449, 0.16470588743686676, 0.14117647707462311, 1 ]
+					}
+				},
+				{
+					"ID" : 177311616,
+					"Type" : "class Pipe",
+					"data" : 
+					{
+						"exitCogPath" : 131501440,
+						"m_name" : "Pipe System"
+					}
+				},
+				{
+					"ID" : 136436480,
+					"Type" : "class Graphics::LineRenderer",
+					"data" : null
+				},
+				{
+					"ID" : 102622096,
+					"Type" : "struct RigidBody",
+					"data" : 
+					{
+						"isBouncy" : false,
+						"isStatic" : true,
+						"mAcceleration" : [ 0, 0, null, null ],
+						"mAffectedByGravity" : true,
+						"mDrag" : 0.99000000953674316,
+						"mGravity" : [ 0, -500, null, null ],
+						"mInvMass" : 0,
+						"mPrevPosition" : [ 0, 0, null, null ],
+						"mRestitution" : 0,
+						"mVelocity" : [ 0, 0, null, null ]
+					}
+				},
+				{
+					"ID" : 61924192,
+					"Type" : "class Collider",
+					"data" : 
+					{
+						"colliderTransform" : 
+						{
+							"mAngle" : 0,
+							"mIsChild" : false,
+							"mPosition" : [ 0, 0, null, null ],
+							"mScale" : [ 1, 1, null, null ],
+							"mZorder" : 1,
+							"posX" : 0,
+							"posY" : 0
+						},
+						"collisionGroupName" : "pipecollisiongroup",
+						"isGhost" : false
+					}
+				}
+			]
+		},
+		{
+			"ID" : 129459280,
+			"Mode" : 0,
+			"Name" : "CamoulageFly.archetype",
+			"components" : 
+			[
+				{
+					"ID" : 129451776,
+					"Type" : "class Transform2D",
+					"data" : 
+					{
+						"mAngle" : 0,
+						"mIsChild" : false,
+						"mPosition" : [ -1475.91015625, -1251.5146484375, null, null ],
+						"mScale" : [ 50, 50, null, null ],
+						"mZorder" : 1,
+						"posX" : 0,
+						"posY" : 0
+					}
+				},
+				{
+					"ID" : 11774856,
+					"Type" : "class Graphics::Renderable",
+					"data" : 
+					{
+						"mIsVisible" : true,
+						"mLayer" : 2,
+						"mTextureName" : "FLy.png",
+						"originalColor" : [ 1, 1, 1, 1 ]
+					}
+				},
+				{
+					"ID" : 91321296,
+					"Type" : "class FlyComponent",
+					"data" : 
+					{
+						"InitialPosition" : [ -1475.91015625, -1251.5146484375, null, null ]
+					}
+				},
+				{
+					"ID" : 130570328,
+					"Type" : "struct RigidBody",
+					"data" : 
+					{
+						"isBouncy" : false,
+						"isStatic" : false,
+						"mAcceleration" : [ 0, 0, null, null ],
+						"mAffectedByGravity" : false,
+						"mDrag" : 0.99000000953674316,
+						"mGravity" : [ 0, -500, null, null ],
+						"mInvMass" : 1,
+						"mPrevPosition" : [ -1475.91015625, -1251.5146484375, null, null ],
+						"mRestitution" : 0,
+						"mVelocity" : [ 0, 0, null, null ]
+					}
+				},
+				{
+					"ID" : 92375656,
+					"Type" : "class Graphics::LineRenderer",
+					"data" : null
+				},
+				{
+					"ID" : 129460336,
+					"Type" : "class Collider",
+					"data" : 
+					{
+						"colliderTransform" : 
+						{
+							"mAngle" : 0,
+							"mIsChild" : false,
+							"mPosition" : [ 0, 0, null, null ],
+							"mScale" : [ 1, 1, null, null ],
+							"mZorder" : 0,
+							"posX" : 0,
+							"posY" : 0
+						},
+						"collisionGroupName" : "camouflageflycollisiongroup",
+						"isGhost" : false
+					}
+				}
+			]
+		},
+		{
+			"ID" : 450485616,
+			"Mode" : 0,
+			"Name" : "player",
+			"components" : 
+			[
+				{
+					"ID" : 450476744,
+					"Type" : "class Transform2D",
+					"data" : 
+					{
+						"mAngle" : 0,
+						"mIsChild" : false,
+						"mPosition" : [ -676.114990234375, -1359.1383056640625, null, null ],
+						"mScale" : [ -70, 100, null, null ],
+						"mZorder" : 12,
+						"posX" : 0,
+						"posY" : 0
+					}
+				},
+				{
+					"ID" : 174707768,
+					"Type" : "class Graphics::AnimComp",
+					"data" : 
+					{
+						"CompColumns" : 17,
+						"CompDelays" : 
+						[
+							0.041999999433755875,
+							0.041999999433755875,
+							0.041999999433755875,
+							0.041999999433755875,
+							0.041999999433755875,
+							0.041999999433755875,
+							0.041999999433755875,
+							0.041999999433755875,
+							0.041999999433755875,
+							0.041999999433755875,
+							0.041999999433755875,
+							0.041999999433755875,
+							0.041999999433755875,
+							0.041999999433755875,
+							0.041999999433755875,
+							0.041999999433755875,
+							0.041999999433755875
+						],
+						"CompDuration" : 1,
+						"CompRows" : 1,
+						"CompSprites" : 17,
+						"mAtlasName" : "walk sprite sheet.png",
+						"mLayer" : 2,
+						"originalColor" : [ 1, 1, 1, 1 ]
+					}
+				},
+				{
+					"ID" : 143165632,
+					"Type" : "class CamouflageComponent",
+					"data" : null
+				},
+				{
+					"ID" : 441721136,
+					"Type" : "struct RigidBody",
+					"data" : 
+					{
+						"isBouncy" : false,
+						"isStatic" : false,
+						"mAcceleration" : [ 0, 0, null, null ],
+						"mAffectedByGravity" : true,
+						"mDrag" : 0.99000000953674316,
+						"mGravity" : [ 0, -3500, null, null ],
+						"mInvMass" : 1,
+						"mPrevPosition" : [ -676.114990234375, -1359.1383056640625, null, null ],
+						"mRestitution" : 0,
+						"mVelocity" : [ 0, 0, null, null ]
+					}
+				},
+				{
+					"ID" : 39568056,
+					"Type" : "class HeadComponent",
+					"data" : null
+				},
+				{
+					"ID" : 449444808,
+					"Type" : "class Graphics::LineRenderer",
+					"data" : null
+				},
+				{
+					"ID" : 450418592,
+					"Type" : "class Collider",
+					"data" : 
+					{
+						"colliderTransform" : 
+						{
+							"mAngle" : 0,
+							"mIsChild" : false,
+							"mPosition" : [ 0, 0, null, null ],
+							"mScale" : [ 1, 1, null, null ],
+							"mZorder" : 1,
+							"posX" : 0,
+							"posY" : 0
+						},
+						"collisionGroupName" : "player",
+						"isGhost" : false
+					}
+				},
+				{
+					"ID" : 441770712,
+					"Type" : "class PlayerStateMachine",
+					"data" : 
+					{
+						"InitialPosition" : [ -676.114990234375, -1359.1383056640625, null, null ],
+						"m_name" : "player state machine"
+					}
+				}
+			]
+		},
+		{
+			"ID" : 118171136,
+			"Mode" : 0,
+			"Name" : "ThrowHead",
+			"components" : 
+			[
+				{
+					"ID" : 79317760,
+					"Type" : "class Transform2D",
+					"data" : 
+					{
+						"mAngle" : 0.062341082841157913,
+						"mIsChild" : false,
+						"mPosition" : [ -602.35491943359375, -1334.912109375, null, null ],
+						"mScale" : [ 50, 50, null, null ],
+						"mZorder" : 15,
+						"posX" : 0,
+						"posY" : 0
+					}
+				},
+				{
+					"ID" : 141523776,
+					"Type" : "class Graphics::AnimComp",
+					"data" : 
+					{
+						"CompColumns" : 8,
+						"CompDelays" : 
+						[
+							0,
+							0.020999999716877937,
+							0.020999999716877937,
+							0.041999999433755875,
+							0.041999999433755875,
+							0.041999999433755875,
+							0.041999999433755875,
+							0.041999999433755875
+						],
+						"CompDuration" : 2,
+						"CompRows" : 1,
+						"CompSprites" : 8,
+						"mAtlasName" : "Dibo head tongue sprite sheet.png",
+						"mLayer" : 2,
+						"originalColor" : [ 1, 1, 1, 1 ]
+					}
+				}
+			]
+		},
+		{
+			"ID" : 453734136,
+			"Mode" : 0,
+			"Name" : "PlayerHead",
+			"components" : 
+			[
+				{
+					"ID" : 453725120,
+					"Type" : "class Transform2D",
+					"data" : 
+					{
+						"mAngle" : 0,
+						"mIsChild" : false,
+						"mPosition" : [ -602.35491943359375, -1374.912109375, null, null ],
+						"mScale" : [ -70, 100, null, null ],
+						"mZorder" : 13,
+						"posX" : 0,
+						"posY" : 0
+					}
+				},
+				{
+					"ID" : 224124216,
+					"Type" : "class Graphics::AnimComp",
+					"data" : 
+					{
+						"CompColumns" : 17,
+						"CompDelays" : 
+						[
+							0.083999998867511749,
+							0.083999998867511749,
+							0.083999998867511749,
+							0.083999998867511749,
+							0.083999998867511749,
+							0.083999998867511749,
+							0.083999998867511749,
+							0.083999998867511749,
+							0.083999998867511749,
+							0.083999998867511749,
+							0.083999998867511749,
+							0.083999998867511749,
+							0.083999998867511749,
+							0.083999998867511749,
+							0.083999998867511749,
+							0.083999998867511749,
+							0.083999998867511749
+						],
+						"CompDuration" : 1,
+						"CompRows" : 1,
+						"CompSprites" : 17,
+						"mAtlasName" : "Dibo-Walk_SpriteSheet_Head.png",
+						"mLayer" : 2,
+						"originalColor" : [ 1, 1, 1, 1 ]
+					}
+				}
+			]
+		}
+	]
+}

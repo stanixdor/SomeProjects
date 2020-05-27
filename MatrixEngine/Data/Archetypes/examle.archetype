@@ -1,0 +1,65 @@
+<<<<<<< HEAD
+{
+	"ID" : 77560752,
+	"Name" : "examle",
+	"components" : 
+	[
+		{
+			"ID" : 68709056,
+			"Type" : "class Transform2D",
+			"data" : 
+			{
+				"mAngle" : 0,
+				"mIsChild" : false,
+				"mPosition" : [ 0, 200, null, null ],
+				"mScale" : [ 2000, 50, null, null ],
+				"mZorder" : 1,
+				"posX" : 0,
+				"posY" : 0
+			}
+		},
+		{
+			"ID" : 71513168,
+			"Type" : "class Graphics::Renderable",
+			"data" : 
+			{
+				"mIsVisible" : true,
+				"mLayer" : 2,
+				"mTextureName" : "Default.png"
+			}
+		}
+	]
+}
+=======
+{
+	"ID" : 77560752,
+	"Name" : "examle",
+	"components" : 
+	[
+		{
+			"ID" : 68709056,
+			"Type" : "class Transform2D",
+			"data" : 
+			{
+				"mAngle" : 0,
+				"mIsChild" : false,
+				"mPosition" : [ 0, 200, null, null ],
+				"mScale" : [ 2000, 50, null, null ],
+				"mZorder" : 1,
+				"posX" : 0,
+				"posY" : 0
+			}
+		},
+		{
+			"ID" : 71513168,
+			"Type" : "class Graphics::Renderable",
+			"data" : 
+			{
+				"mIsVisible" : true,
+				"mLayer" : 2,
+				"mTextureName" : "Default.png"
+			}
+		}
+	]
+}
+>>>>>>> Ferni

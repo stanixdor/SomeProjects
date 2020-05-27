@@ -1,0 +1,82 @@
+{
+	"ID" : 146635280,
+	"Mode" : 0,
+	"Name" : "detector",
+	"components" : 
+	[
+		{
+			"ID" : 79571920,
+			"Type" : "class Transform2D",
+			"data" : 
+			{
+				"mAngle" : 0,
+				"mIsChild" : false,
+				"mPosition" : [ -268.85400390625, -1256.4935302734375, null, null ],
+				"mScale" : [ 700, 400, null, null ],
+				"mZorder" : 1,
+				"posX" : 0,
+				"posY" : 0
+			}
+		},
+		{
+			"ID" : 146969776,
+			"Type" : "class Graphics::Renderable",
+			"data" : 
+			{
+				"mIsVisible" : true,
+				"mLayer" : 2,
+				"mTextureName" : "Default.png",
+				"originalColor" : [ 201, 159, 10, 0.20000000298023224 ]
+			}
+		},
+		{
+			"ID" : 147528624,
+			"Type" : "class Graphics::LineRenderer",
+			"data" : null
+		},
+		{
+			"ID" : 62304512,
+			"Type" : "struct RigidBody",
+			"data" : 
+			{
+				"isBouncy" : false,
+				"isStatic" : true,
+				"mAcceleration" : [ 0, 0, null, null ],
+				"mAffectedByGravity" : true,
+				"mDrag" : 0.99000000953674316,
+				"mGravity" : [ 0, -500, null, null ],
+				"mInvMass" : 0,
+				"mPrevPosition" : [ 0, 0, null, null ],
+				"mRestitution" : 0,
+				"mVelocity" : [ 0, 0, null, null ]
+			}
+		},
+		{
+			"ID" : 147443264,
+			"Type" : "class Collider",
+			"data" : 
+			{
+				"colliderTransform" : 
+				{
+					"mAngle" : 0,
+					"mIsChild" : false,
+					"mPosition" : [ 0, 0, null, null ],
+					"mScale" : [ 1, 1, null, null ],
+					"mZorder" : 1,
+					"posX" : 0,
+					"posY" : 0
+				},
+				"collisionGroupName" : "detector",
+				"isGhost" : false
+			}
+		},
+		{
+			"ID" : 101450336,
+			"Type" : "class Detector",
+			"data" : 
+			{
+				"pathDetector" : 146068432
+			}
+		}
+	]
+}

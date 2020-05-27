@@ -1,0 +1,1 @@
+A game project I made programming a game engine with OpenGL from scratch. Everything except what's inside of Src/Game is coded by me

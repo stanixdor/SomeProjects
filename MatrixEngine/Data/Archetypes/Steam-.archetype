@@ -1,0 +1,94 @@
+{
+	"ID" : 1690299482624,
+	"Mode" : 0,
+	"Name" : "Steam-",
+	"components" : 
+	[
+		{
+			"ID" : 1690297543200,
+			"Type" : "class Transform2D",
+			"data" : 
+			{
+				"mAngle" : 1.5707963705062866,
+				"mIsChild" : false,
+				"mPosition" : [ -891.047119140625, 937.0291748046875, null, null ],
+				"mScale" : [ 315.45144653320313, 688.7183837890625, null, null ],
+				"mZorder" : -5,
+				"posX" : 0,
+				"posY" : 0
+			}
+		},
+		{
+			"ID" : 1692185463648,
+			"Type" : "class Graphics::AnimComp",
+			"data" : 
+			{
+				"CompColumns" : 3,
+				"CompDelays" : 
+				[
+					0.059999998658895493,
+					0.059999998658895493,
+					0.059999998658895493,
+					0.059999998658895493,
+					0.059999998658895493,
+					0.059999998658895493,
+					0.059999998658895493,
+					0.059999998658895493,
+					0.059999998658895493
+				],
+				"CompDuration" : 2,
+				"CompRows" : 3,
+				"CompSprites" : 9,
+				"mAtlasName" : "Steam.png",
+				"mLayer" : 2,
+				"originalColor" : [ 1, 1, 1, 1 ]
+			}
+		},
+		{
+			"ID" : 1690299493024,
+			"Type" : "class Graphics::LineRenderer",
+			"data" : null
+		},
+		{
+			"ID" : 1692197687424,
+			"Type" : "struct RigidBody",
+			"data" : 
+			{
+				"isBouncy" : false,
+				"isStatic" : true,
+				"mAcceleration" : [ 0, 0, null, null ],
+				"mAffectedByGravity" : true,
+				"mDrag" : 0.99000000953674316,
+				"mGravity" : [ 0, -500, null, null ],
+				"mInvMass" : 0,
+				"mPrevPosition" : [ 0, 0, null, null ],
+				"mRestitution" : 0,
+				"mVelocity" : [ 0, 0, null, null ]
+			}
+		},
+		{
+			"ID" : 1692197702368,
+			"Type" : "class Collider",
+			"data" : 
+			{
+				"colliderTransform" : 
+				{
+					"mAngle" : 0,
+					"mIsChild" : false,
+					"mPosition" : [ 0, 0, null, null ],
+					"mScale" : [ 1, 1, null, null ],
+					"mZorder" : 1,
+					"posX" : 0,
+					"posY" : 0
+				},
+				"collisionGroupName" : "steamcollisiongroup",
+				"isGhost" : true
+			}
+		},
+		{
+			"ID" : 1690297543584,
+			"Type" : "class Steam",
+			"data" : null
+		}
+	]
+}
